@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+  font-size: 17px;
+  line-height: 22px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Varela Round", sans-serif; }
+
+h1 {
+  font-size: 60px; }
+
+h2 {
+  margin: 50px 0 25px 0; }
+
+h6 {
+  text-transform: uppercase;
+  color: DarkGray;
+  margin: 10px 10px 0 0;
+  font-size: 12px;
+  display: inline-block; }
+
+.centered {
+  margin: 0 auto; }
+
+hr {
+  margin: 50px 0;
+  border: 1px solid Gainsboro; }
+
+a, a:visited {
+  color: OrangeRed;
+  text-decoration: none;
+  transition: color 250ms; }
+
+a:hover, a:active {
+  color: Coral; }
+
+img {
+  margin: 0 0 50px 0; }
+
+header {
+  min-height: 50px;
+  padding: 10px;
+  background-color: WhiteSmoke; }
+  header .brand-mark {
+    font-family: "Varela Round", sans-serif;
+    font-size: 25px; }
+    header .brand-mark a {
+      color: Black; }
+  header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    header ul li {
+      display: flex;
+      margin-right: 30px;
+      font-size: 15px; }
+  header a, header a:visited {
+    color: DimGray;
+    text-decoration: none; }
+  header a:hover {
+    color: Black; }
+  header a:active {
+    color: Tomato; }
+
+#pageBanner {
+  background-color: WhiteSmoke;
+  min-height: 100px;
+  padding: 100px 50px 150px 50px; }
+  #pageBanner p {
+    color: DarkGray;
+    max-width: 700px; }
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: WhiteSmoke;
+  color: Gray;
+  font-size: 14px;
+  padding: 50px; }
+  footer #footer-leftColumn {
+    width: 50vh;
+    flex-grow: 1; }
+  footer #footer-rightColumn {
+    width: 50vh;
+    text-align: right;
+    flex-grow: 1; }
+    footer #footer-rightColumn ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+    footer #footer-rightColumn li {
+      display: flex;
+      margin: 0 0 0 10px; }
+    footer #footer-rightColumn a, footer #footer-rightColumn a:visited {
+      color: Gray; }
+    footer #footer-rightColumn a, footer #footer-rightColumn a:hover {
+      color: DimGray; }
+
+/*# sourceMappingURL=main.css.map */

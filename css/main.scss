@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+$heading-font: 'Varela Round', sans-serif;
+$body-font: 'Varela Round', sans-serif;
+$container-background-color: WhiteSmoke;
+$brand-mark-color: Black;
+$mainNav-static: DimGray;
+$mainNav-hover: Black;
+$mainNav-active: Tomato;
+$pageBanner-background-color: WhiteSmoke;
+$link-static: OrangeRed;
+$link-hover: Coral;
+$meta-text-color: DarkGray;
+$footer-background-color: WhiteSmoke;
+$footer-color: Gray;
+$border-color: Gainsboro;
+$page-banner-body-color: DarkGray;
+$footer-hover-color: DimGray;
+
+//Global Styles
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: $body-font;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  margin: 50px 0 25px 0;
+}
+
+h6 {
+  text-transform: uppercase;
+  color: $meta-text-color;
+  margin: 10px 10px 0 0;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+hr {
+  margin: 50px 0;
+  border: 1px solid $border-color;
+}
+
+a, a:visited {
+  color: $link-static;
+  //font-weight: bold;
+  text-decoration: none;
+  transition: color 250ms;
+}
+
+a:hover, a:active {
+  color: $link-hover;
+}
+
+img {
+  margin: 0 0 50px 0;
+}
+
+
+//================== HEADER STYLES =====================
+header {
+  min-height: 50px;
+  padding: 10px;
+  background-color: $container-background-color;
+
+  .brand-mark {
+    font-family: $heading-font;
+    font-size: 25px;
+
+    a {
+      color: $brand-mark-color;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    li {
+      display: flex;
+      margin-right: 30px;
+      font-size: 15px;
+    }
+  }
+
+  a, a:visited {
+    color: $mainNav-static;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $mainNav-hover;
+  }
+
+  a:active {
+    color: $mainNav-active;
+  }
+}
+
+#pageBanner {
+  background-color: $pageBanner-background-color;
+  min-height: 100px;
+  padding: 100px 50px 150px 50px;
+
+  p {
+    color: $page-banner-body-color;
+    max-width: 700px;
+  }
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: $footer-background-color;
+  color: $footer-color;
+  font-size: 14px;
+  padding: 50px;
+
+  #footer-leftColumn {
+    //background-color:  red;
+    width: 50vh;
+    flex-grow: 1;
+  }
+
+  #footer-rightColumn {
+    //background-color: blue;
+    width: 50vh;
+    text-align: right;
+    flex-grow: 1;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    li {
+      display: flex;
+      margin: 0 0 0 10px;
+    }
+
+    a, a:visited {
+      color: $footer-color;
+    }
+
+    a, a:hover {
+      color: $footer-hover-color;
+    }
+  }
+}
