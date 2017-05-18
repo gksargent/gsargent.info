@@ -1,0 +1,152 @@
+//===================== move to font partial
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+$body-font: 'Varela Round', sans-serif;
+$heading-font: 'Varela Round', sans-serif;
+
+
+
+//===================== move to colors partial
+$body-background-color: white;
+$navigation-background-color: white;
+$navigation-link-color: dimgray;
+$navigation-link-color-hover: black;
+$navigation-link-color-active: orangered;
+$banner-background-color: whitesmoke;
+$font-color: dimgray;
+$brand-mark-text-color: black;
+$footer-background-color: whitesmoke;
+$footer-text-color: gray;
+$footer-link-color: gray;
+$footer-link-color-hover: black;
+$main-background-color: white;
+
+
+
+//===================== main css styles
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: $body-font;
+  font-size: 17px;
+  line-height: 22px;
+  font-color: $font-color;
+  background-color: $body-background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  line-height: 1.35em;
+}
+
+h6 {
+  text-transform: uppercase;
+}
+
+nav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  background-color: $navigation-background-color;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.08);
+
+  .brandMark {
+    font-size: 18px;
+
+    a {
+      color: $brand-mark-text-color;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+
+    li {
+      padding: 10px 20px 8px 0;
+
+      a, a:visited {
+        text-decoration: none;
+        color: $navigation-link-color;
+        transition: color 200ms;
+      }
+
+      a:hover {
+        color: $navigation-link-color-hover;
+      }
+
+      a:active {
+        color: $navigation-link-color-active;
+      }
+    }
+  }
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: $main-background-color;
+
+  h1, h2, h3, h4, h5 {
+    margin: 10px 0 45px 0;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: $footer-background-color;
+  padding: 50px;
+  font-size: 14px;
+  color: $footer-text-color;
+}
+
+#footer-left-column {
+  width: 50vh;
+  flex-grow: 1;
+}
+
+#footer-right-column {
+  width: 50vh;
+    text-align: right;
+    flex-grow: 1;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  li {
+    display: flex;
+    margin: 0 0 0 10px;
+  }
+
+  a, a:visited {
+    color: $footer-link-color;
+    text-decoration: none;
+  }
+
+  a, a:hover {
+    color: $footer-link-color-hover;
+    text-decoration: none;
+  }
+}
+
+#banner {
+  margin-top: 50px;
+  padding: 10%;
+  background-color: $banner-background-color;
+
+  h1, p {
+    max-width: 700px;
+  }
+}

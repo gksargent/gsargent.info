@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-dev</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-dev" stroke="#000000" stroke-width="10">
+            <path d="M309.656056,325 L144.007094,325 C134.062051,325 126,316.94217 126,306.996854 L126,232.5 M213.5,135 L377.996761,135 C387.939676,135 396,143.055531 396,152.999068 L396,236" id="Rectangle-8" stroke-linecap="round"></path>
+            <path d="M127,293 L294.002994,293" id="Line" stroke-linecap="round"></path>
+            <path d="M313,373 C313,373 294,375 284,362 C278.668906,355.069577 280,328 280,328" id="Line" stroke-linecap="round"></path>
+            <path d="M242,373 C242,373 223,375 213,362 C207.668906,355.069577 209,328 209,328" id="Line" stroke-linecap="round" transform="translate(225.426175, 350.555363) scale(-1, 1) translate(-225.426175, -350.555363) "></path>
+            <path d="M313,373 L208.981308,373" id="Line" stroke-linecap="round"></path>
+            <path d="M178,119 L178,187" id="Line" stroke-linecap="round"></path>
+            <path d="M152,208 L178,188" id="Line" stroke-linecap="round"></path>
+            <path d="M152,185 L127,185" id="Line" stroke-linecap="round"></path>
+            <path d="M152,185 L178,179" id="Line" stroke-linecap="round"></path>
+            <path d="M127,185 L101,180" id="Line" stroke-linecap="round"></path>
+            <path d="M100,119 L100,187" id="Line" stroke-linecap="round" transform="translate(100.500000, 153.000000) scale(-1, 1) translate(-100.500000, -153.000000) "></path>
+            <path d="M101,208 L127,188" id="Line" stroke-linecap="round" transform="translate(114.000000, 198.000000) scale(-1, 1) translate(-114.000000, -198.000000) "></path>
+            <path d="M152,208 L127,208" id="Line" stroke-linecap="round"></path>
+            <path d="M137,131 C162.405098,131 183,123.612698 183,114.5 C183,105.387302 173.405098,98 137,98 C97.5980841,98 94,105.387302 94,114.5 C94,123.612698 111.594902,131 137,131 Z" id="Oval-2" fill="#000000" stroke-linecap="square"></path>
+            <ellipse id="Oval-3" stroke-linecap="square" cx="94.5" cy="145.5" rx="6.5" ry="12.5"></ellipse>
+            <ellipse id="Oval-3" stroke-linecap="square" cx="183.5" cy="145.5" rx="5.5" ry="12.5"></ellipse>
+            <path d="M112,95 C112,95 111,87.5 108,87.5 C105,87.5 93.5,105 93.5,110.5 C93.5,116 95,169.5 95,169.5" id="Path-4" stroke-linecap="round"></path>
+            <path d="M187,120 L184.5,170.5" id="Path-5" stroke-linecap="round"></path>
+            <path d="M388,262 L360,325" id="Line" stroke-linecap="round"></path>
+            <path d="M423,296 L400,277" id="Line" stroke-linecap="round"></path>
+            <path d="M423,315 L400,296" id="Line" stroke-linecap="round" transform="translate(411.500000, 305.500000) scale(-1, 1) translate(-411.500000, -305.500000) "></path>
+            <path d="M346,294 L323,275" id="Line" stroke-linecap="round" transform="translate(334.500000, 284.500000) scale(-1, 1) translate(-334.500000, -284.500000) "></path>
+            <path d="M346,313 L323,294" id="Line" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
