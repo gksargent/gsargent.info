@@ -9,15 +9,9 @@
 
 <body>
 
-  <nav>
-    <ul>
-      <li class="brandMark"><a href="/">Greg Sargent</a></li>
-      <li><a href="/">Link</a></li>
-      <li><a href="/">Link</a></li>
-      <li><a href="/">Link</a></li>
-    </ul>
-  </nav>
-
+  <?php // This php pulls in header.php to create the header content
+  include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
+  
   <div id="banner">
     <h1>Page Title</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>

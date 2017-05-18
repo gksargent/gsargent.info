@@ -1,4 +1,4 @@
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta name="author" content="Greg Sargent">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
