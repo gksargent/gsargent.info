@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+$body-font-family: "Varela Round", sans-serif; 
+$heading-font-family: "Varela Round", sans-serif;
+$fixed-font-family: monospace;
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+//Body font
+$body-font-weight: $regular;
+$body-font-size: 17px;
+$body-line-height: 1.3;
+
+//Fixed font
+$fixed-font-size: 15px;
+$fixed-line-height: $body-line-height;
+
+//Meta text font
+$meta-text-font-size: 10px;
+$meta-text-line-height: 1;
+
+h1.styleguide-heading-example, h2.styleguide-heading-example, h3.styleguide-heading-example, h4.styleguide-heading-example, h5.styleguide-heading-example, h6.styleguide-heading-example {
+  margin: 0;
+}

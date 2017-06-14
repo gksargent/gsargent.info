@@ -1,0 +1,30 @@
+/*
+======================================
+             Footer stuff
+======================================
+*/
+
+footer {
+    display: flex;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+#footer-left-column {
+  width: 50%;
+}
+
+#footer-right-column {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      padding: 0 5px;
+    }
+  }
+}
