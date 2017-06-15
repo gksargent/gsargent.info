@@ -1,4 +1,4 @@
-/* 
+/*
 ======================================
             Main navigation
 ======================================
@@ -14,37 +14,42 @@
   padding: 15px 5vw;
   box-shadow: 0 1px 45px rgba(0, 0, 0, 0.20);
   z-index: 3000;
-  
+
   img {
     margin-right: 75px;
   }
-  
+
   ul {
     display: flex;
     list-style-type: none;
-    
+
     li {
       padding: 5px;
       margin: 0 5px;
     }
+
+    li:before {
+      display: none;
+    }
   }//end ul
-  
+
   a, a:visited {
     color: $main-nav-link;
     text-decoration: none;
-    transition: color .25s ease;
+    transition: color 150ms;
+    font-size: 16px;
   }
-  
+
   a:hover {
     color: $main-nav-link-hover;
   }
-  
+
   a:active {
     color: $main-nav-link-active;
   }
 }
 
-/* 
+/*
 ======================================
     Demo navigation for styleguide
 ======================================
@@ -64,38 +69,43 @@
   width: auto;
   padding: 15px 5vw;
   box-shadow: 0 1px 45px rgba(0, 0, 0, 0.20);
-  
+
   img {
     margin-right: 75px;
   }
-  
+
   ul {
     display: flex;
     list-style-type: none;
-    
+
     li {
       padding: 5px;
       margin: 0 5px;
     }
+
+    li:before {
+      display: none;
+    }
   }//end ul
-  
+
   a, a:visited {
     color: $main-nav-link;
     text-decoration: none;
     transition: color .25s ease;
+    background: none;
   }
-  
+
   a:hover {
     color: $main-nav-link-hover;
   }
-  
+
   a:active {
     color: $main-nav-link-active;
   }
 }
 
 
-/* 
+/*
 ======================================
          Secondary navigation
 ======================================
@@ -106,12 +116,12 @@
   width: 25%;
   max-width: 240px;
   height: 100vh;
-  
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+
     a, a:visited {
       display: block;
       margin: 5px 0;
@@ -125,12 +135,16 @@
       text-decoration: none;
       background-color: white;
     }// end a, a:visited
-    
+
     a:hover {
       background-color: $filled-box-color;
       color: $secondary-color;
     }
   }//end ul
+
+  li:before {
+    display: none;
+  }
 }
 
 .sg-active-tab {
@@ -138,7 +152,7 @@
       color: $primary-color !important;
     }
 
-/* 
+/*
 ======================================
   Demo secondary nav for styleguide
 ======================================
@@ -148,12 +162,12 @@
   margin: 0 50px 0 0;
   width: 25%;
   max-width: 240px;
-  
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+
     a, a:visited {
       display: block;
       margin: 5px 0;
@@ -167,16 +181,19 @@
       text-decoration: none;
       background-color: white;
     }// end a, a:visited
-    
+
     a:hover {
       background-color: $filled-box-color;
       color: $secondary-color;
     }
   }//end ul
+
+  li:before {
+    display: none;
+  }
 }
 
 .sg-active-tab {
       background-color: $filled-box-color !important;
       color: $primary-color !important;
     }
-      

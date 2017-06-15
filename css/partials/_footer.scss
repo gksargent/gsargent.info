@@ -8,6 +8,22 @@ footer {
     display: flex;
     padding: 50px;
     background-color: whitesmoke;
+    font-size: 14px;
+
+    a, a:visited {
+      color: $main-nav-link;
+      text-decoration: none;
+      transition: color .25s ease;
+      background: none;
+    }
+
+    a:hover {
+      color: $main-nav-link-hover;
+    }
+
+    a:active {
+      color: $main-nav-link-active;
+    }
 }
 
 #footer-left-column {
@@ -25,6 +41,10 @@ footer {
 
     li {
       padding: 0 5px;
+    }
+
+    li:before {
+      display: none;
     }
   }
 }

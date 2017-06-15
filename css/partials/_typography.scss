@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-$body-font-family: "Varela Round", sans-serif; 
-$heading-font-family: "Varela Round", sans-serif;
-$fixed-font-family: monospace;
+$body-font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+$heading-font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+$fixed-font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
 
 // Font weights
 $light: 100;
@@ -23,4 +22,48 @@ $meta-text-line-height: 1;
 
 h1.styleguide-heading-example, h2.styleguide-heading-example, h3.styleguide-heading-example, h4.styleguide-heading-example, h5.styleguide-heading-example, h6.styleguide-heading-example {
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-text-color;
+}
+
+h3, h4, h5 {
+  margin-top: 50px;
+}
+
+h6 {
+  text-transform: uppercase;
+  color: $secondary-color;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.meta-text {
+  text-transform: uppercase;
+  color: lighten( $secondary-color, 25% );
+}
+
+pre {
+  font-family: $fixed-font-family;
+  padding: 30px;
+  margin: 25px auto;
+  background-color: $filled-box-color;
+  max-width: 600px;
+  overflow: scroll;
 }

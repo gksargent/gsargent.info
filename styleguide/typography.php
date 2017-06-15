@@ -25,19 +25,22 @@
   </nav>
   <main>
     <h2>Typography</h2>
-    <h3>Varela Round</h3>
-    <p>Google Fonts API served <a href="https://fonts.google.com/specimen/Varela+Round" target="-blank">Varela Round</a> 143 million times last week, and the happy rounded font family is used on more than 310,000 websites throughout the world.</p>
-    <h3>Why I use Varela Round</h3>
-    <p>As a UI designer, one of my favorite tasks is creating vector icons. And my favorite style of icon is a simple flat outline design. With rounded edges - no sharp corners! If I were to create a font family to match my obsessive style of icon design, it would be Varela Round. Such perfection, such consistency. Each glyph contains the exact same stroke width, with no overly designed and unexpected ears, terminals or shoulders.</p>
-    <h3>Heading fonts</h3>
+    <h3>San Francisco, Segoe &amp; Roboto</h3>
+    <p>Major tech companies like Apple, Microsoft and Google have invested massive resources into designing and optimizing the perfect fonts for their system, and the legibility of these fonts are fantastic. And so I thought wouldn't it be pretty sweet to dynamically serve these fonts to visitors of my website. By dynamically serve I mean serve Mac &amp; iOS users the <a href="https://developer.apple.com/fonts/" target="_blank">San Francisco</a> font, Windows users the <a href="https://en.wikipedia.org/wiki/Segoe" target="_blank">Segoe</a> font and Android users <a href="https://fonts.google.com/specimen/Roboto" target="_blank">Roboto</a>. Since these users are already accustomed to these fonts, seeing them on a website would feel natural and familiar. I set out to make it so. Here's the article I found: <a href="https://booking.design/implementing-system-fonts-on-booking-com-a-lesson-learned-bdc984df627f" target="_blank">Medium article.</a></p>
+    <h3>Heading font treatment</h3>
     <h1 class="styleguide-heading-example">Heading 1</h1>
     <h2 class="styleguide-heading-example">Heading 2</h2>
     <h3 class="styleguide-heading-example">Heading 3</h3>
-    <h4 class="styleguide-heading-example">Heading 4</h4>
-    <h5 class="styleguide-heading-example">Heading 5</h5>
     <h6 class="styleguide-heading-example">Heading 6</h6>
-    <h3>Body fonts</h3>
-        <p>ABCDEFHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789<br>!@#$%^&*(){};‘”</p>
+    <h3>Body font treatment</h3>
+    <p>ABCDEFHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789<br>!@#$%^&*(){};‘”</p>
+    <h3>Preformatted font treatment</h3>
+    <pre>.class {
+  display: block;
+  width: 600px;
+  background-color: whitesmoke;
+}</pre>
+
   </main>
 </div><!-- end content_wrapper -->
 

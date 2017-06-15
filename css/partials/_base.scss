@@ -1,19 +1,8 @@
-/*
-======================================
-           Other variables
-======================================
-*/
+// other variables
 
 $large-dark-shadow: 0 15px 50px -25px black;
 
-
-
-
-/*
-======================================
-             Base styles
-======================================
-*/
+//base styles
 
 body {
   height: 100vh;
@@ -23,6 +12,9 @@ body {
   background-color: $body-background-color;
   color: $body-text-color;
   font-family: $body-font-family;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 400;
 }
 
 #content_wrapper {
@@ -34,42 +26,28 @@ body {
 
 main {
   width: 70%;
-}
 
-h1, h2, h3, h4, h5, h6 {
-  color: $heading-text-color;
-}
+  a, a:visited {
+    color: $link-color;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: whitesmoke;
+    padding: 3px 9px;
+    transition: all 100ms;
+  }
 
-h3, h4, h5 {
-  margin-top: 50px;
-}
+  a:hover {
+    color: $link-color-hover;
+  }
 
-h6 {
-  text-transform: uppercase;
-  color: $secondary-color;
-}
-
-.meta-text {
-  text-transform: uppercase;
-  color: lighten( $secondary-color, 25% );
+  a:active {
+    color: $link-color-active;
+  }
 }
 
 hr {
   width: 90%;
   border: solid 1px $border-color;
-}
-
-a, a:visited {
-  color: $link-color;
-  text-decoration: none;
-}
-
-a:hover {
-  color: $link-color-hover;
-}
-
-a:active {
-  color: $link-color-active;
 }
 
 .subheader {
@@ -101,5 +79,57 @@ a:active {
 
   p {
     color: $secondary-color;
+  }
+}
+
+li {
+  counter-increment: li
+}
+
+ul {
+  list-style: none;
+
+  li::before {
+    content: " \25E6";
+    color: $tertiary-color;
+    padding-right: 10px;
+    font-size: 25px;
+    line-height: 0.75;
+  }
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li {
+  display: block;
+}
+
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  color: red;
+}
+
+figure {
+  background-color: $filled-box-color;
+  padding: 20px 20px 0 20px;
+  max-width: 600px;
+
+  img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    font-size: 14px;
+    padding: 10px 0;
+    color: $secondary-color;
+  }
+
+  i {
+    color: #c5c5c5;
+    margin-right: 15px;
   }
 }

@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Varela+Round");
-h1.styleguide-heading-example, h2.styleguide-heading-example, h3.styleguide-heading-example, h4.styleguide-heading-example, h5.styleguide-heading-example, h6.styleguide-heading-example {
-  margin: 0; }
-
+@charset "UTF-8";
 #color_swatches {
   display: flex;
   width: 400px;
@@ -39,33 +36,11 @@ h1.styleguide-heading-example, h2.styleguide-heading-example, h3.styleguide-head
   .color-data .meta-text {
     margin: 0 10px 0 30px; }
 
-/*
-======================================
-           Other variables
-======================================
-*/
-/*
-======================================
-             Base styles
-======================================
-*/
-body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  color: #333333;
-  font-family: "Varela Round", sans-serif; }
+.text-tertiary {
+  color: #ff5733; }
 
-#content_wrapper {
-  display: flex;
-  position: inherit;
-  width: 90vw;
-  margin: 150px auto 75px auto; }
-
-main {
-  width: 70%; }
+h1.styleguide-heading-example, h2.styleguide-heading-example, h3.styleguide-heading-example, h4.styleguide-heading-example, h5.styleguide-heading-example, h6.styleguide-heading-example {
+  margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #333333; }
@@ -75,25 +50,69 @@ h3, h4, h5 {
 
 h6 {
   text-transform: uppercase;
-  color: #707070; }
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400; }
+
+h1 {
+  font-size: 50px;
+  font-weight: 200; }
+
+h2 {
+  font-size: 40px;
+  font-weight: 300; }
+
+h3 {
+  font-size: 19px;
+  font-weight: 600; }
 
 .meta-text {
   text-transform: uppercase;
   color: #b0b0b0; }
 
+pre {
+  font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
+  padding: 30px;
+  margin: 25px auto;
+  background-color: #f0f0f0;
+  max-width: 600px;
+  overflow: scroll; }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 400; }
+
+#content_wrapper {
+  display: flex;
+  position: inherit;
+  width: 90vw;
+  margin: 150px auto 75px auto; }
+
+main {
+  width: 70%; }
+  main a, main a:visited {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: whitesmoke;
+    padding: 3px 9px;
+    transition: all 100ms; }
+  main a:hover {
+    color: #ff5733; }
+  main a:active {
+    color: #ff5733; }
+
 hr {
   width: 90%;
   border: solid 1px #e0e0e0; }
-
-a, a:visited {
-  color: #333333;
-  text-decoration: none; }
-
-a:hover {
-  color: #ff5733; }
-
-a:active {
-  color: #ff5733; }
 
 .subheader {
   max-width: 500px; }
@@ -120,6 +139,44 @@ a:active {
   #author_snippet p {
     color: #707070; }
 
+li {
+  counter-increment: li; }
+
+ul {
+  list-style: none; }
+  ul li::before {
+    content: " \25E6";
+    color: #ff5733;
+    padding-right: 10px;
+    font-size: 25px;
+    line-height: 0.75; }
+
+ol {
+  counter-reset: item; }
+
+ol li {
+  display: block; }
+
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  color: red; }
+
+figure {
+  background-color: #f0f0f0;
+  padding: 20px 20px 0 20px;
+  max-width: 600px; }
+  figure img {
+    max-width: 100%;
+    margin: 0 auto; }
+  figure figcaption {
+    font-size: 14px;
+    padding: 10px 0;
+    color: #707070; }
+  figure i {
+    color: #c5c5c5;
+    margin-right: 15px; }
+
 .primary-button {
   display: inline-block;
   background-color: #ff421a;
@@ -128,7 +185,7 @@ a:active {
   border-radius: 3px;
   font-size: 17px;
   text-transform: uppercase;
-  font-family: "Varela Round", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
   padding: 15px 25px;
   cursor: pointer;
   box-shadow: 0 4px 10px -5px black;
@@ -147,7 +204,7 @@ a:active {
 .primary-button:focus {
   outline: 0; }
 
-/* 
+/*
 ======================================
             Main navigation
 ======================================
@@ -170,16 +227,19 @@ a:active {
     #main_nav ul li {
       padding: 5px;
       margin: 0 5px; }
+    #main_nav ul li:before {
+      display: none; }
   #main_nav a, #main_nav a:visited {
     color: black;
     text-decoration: none;
-    transition: color .25s ease; }
+    transition: color 150ms;
+    font-size: 16px; }
   #main_nav a:hover {
     color: #ff5733; }
   #main_nav a:active {
     color: #ff5733; }
 
-/* 
+/*
 ======================================
     Demo navigation for styleguide
 ======================================
@@ -206,16 +266,19 @@ a:active {
     #demo_main_nav ul li {
       padding: 5px;
       margin: 0 5px; }
+    #demo_main_nav ul li:before {
+      display: none; }
   #demo_main_nav a, #demo_main_nav a:visited {
     color: black;
     text-decoration: none;
-    transition: color .25s ease; }
+    transition: color .25s ease;
+    background: none; }
   #demo_main_nav a:hover {
     color: #ff5733; }
   #demo_main_nav a:active {
     color: #ff5733; }
 
-/* 
+/*
 ======================================
          Secondary navigation
 ======================================
@@ -243,12 +306,14 @@ a:active {
     #secondary_nav ul a:hover {
       background-color: #f0f0f0;
       color: #707070; }
+  #secondary_nav li:before {
+    display: none; }
 
 .sg-active-tab {
   background-color: #f0f0f0 !important;
   color: #333333 !important; }
 
-/* 
+/*
 ======================================
   Demo secondary nav for styleguide
 ======================================
@@ -275,6 +340,8 @@ a:active {
     #demo_secondary_nav ul a:hover {
       background-color: #f0f0f0;
       color: #707070; }
+  #demo_secondary_nav li:before {
+    display: none; }
 
 .sg-active-tab {
   background-color: #f0f0f0 !important;
@@ -292,7 +359,17 @@ a:active {
 footer {
   display: flex;
   padding: 50px;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  font-size: 14px; }
+  footer a, footer a:visited {
+    color: black;
+    text-decoration: none;
+    transition: color .25s ease;
+    background: none; }
+  footer a:hover {
+    color: #ff5733; }
+  footer a:active {
+    color: #ff5733; }
 
 #footer-left-column {
   width: 50%; }
@@ -306,5 +383,7 @@ footer {
     list-style-type: none; }
     #footer-right-column ul li {
       padding: 0 5px; }
+    #footer-right-column ul li:before {
+      display: none; }
 
 /*# sourceMappingURL=main.processed.css.map */

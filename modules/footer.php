@@ -1,7 +1,7 @@
   <footer>
 
     <div id="footer-left-column">
-      <p>&copy; Greg Sargent &nbsp; | &nbsp; Proudly coded from scratch.</p>
+      <p><span class="text-tertiary">&copy;</span> Greg Sargent &nbsp; | &nbsp; Proudly coded from scratch.</p>
       <a href="/styleguide">Style Guide</a>
     </div>
 
@@ -18,6 +18,4 @@
 
   </footer>
   <script>
-    <?php // This php pulls in footer.php to create the footer content
-    include $_SERVER['DOCUMENT_ROOT'].'/scripts/nav-active.js'; ?>
   </script>
