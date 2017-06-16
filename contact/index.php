@@ -16,7 +16,12 @@
 
   <main>
 
-    <h1>Contact</h1>
+        <div class="container">
+          <div class="full">
+            <h1>Contact</h1>
+            <p>More stuff coming soon.</p>
+          </div>
+        </div><!-- end container -->
 
   </main>
 </div><!-- end content_wrapper -->

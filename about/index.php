@@ -15,9 +15,14 @@
 <div id="content_wrapper">
 
   <main>
+
     <div class="container">
-      <h1>About</h1>
+      <div class="full">
+        <h1>About</h1>
+        <p>More stuff coming soon.</p>
+      </div>
     </div><!-- end container -->
+
   </main>
 </div><!-- end content_wrapper -->
 

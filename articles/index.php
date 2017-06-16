@@ -16,11 +16,12 @@
 
   <main>
 
-    <div class="container">
-      <div class="full">
-        <h1>Articles</h1>
-      </div>
-    </div><!-- end container -->
+        <div class="container">
+          <div class="full">
+            <h1>Articles</h1>
+            <p>More stuff coming soon.</p>
+          </div>
+        </div><!-- end container -->
 
   </main>
 </div><!-- end content_wrapper -->
