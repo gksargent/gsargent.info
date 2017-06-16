@@ -1,0 +1,130 @@
+/*
+======================================
+Grid visualization stuff
+======================================
+*/
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+
+  pre {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    max-width: none;
+  }
+}
+
+.columns {
+  display: flex;
+
+  .column {
+    background-color: $filled-box-color;
+    border: solid 2px darken( $filled-box-color, 20% );
+    min-height: 25px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+  }
+
+  .full {
+    width: 100%;
+  }
+
+  .one-half {
+    width: 50%;
+  }
+
+  .one-third {
+    width: 33.333%;
+  }
+
+  .one-fourth {
+    width: 25%;
+  }
+
+  .one-fifth {
+    width: 20%;
+  }
+
+  .four-fifths {
+    width: 80%;
+  }
+
+  .three-fourths {
+    width: 75%;
+  }
+
+  .two-thirds {
+    width: 66.6666667%;
+  }
+
+} //end .columns
+
+
+/*
+======================================
+Styleguide Grid visualization stuff
+======================================
+*/
+
+.sg-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+
+  pre {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    max-width: none;
+  }
+}
+
+.sg-columns {
+  display: flex;
+
+  .sg-column {
+    background-color: $filled-box-color;
+    border: solid 2px darken( $filled-box-color, 20% );
+    min-height: 25px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+  }
+
+  .sg-full {
+    width: 100%;
+  }
+
+  .sg-one-half {
+    width: 50%;
+  }
+
+  .sg-one-third {
+    width: 33.333%;
+  }
+
+  .sg-one-fourth {
+    width: 25%;
+  }
+
+  .sg-one-fifth {
+    width: 20%;
+  }
+
+  .sg-four-fifths {
+    width: 80%;
+  }
+
+  .sg-three-fourths {
+    width: 75%;
+  }
+
+  .sg-two-thirds {
+    width: 66.6666667%;
+  }
+
+} //end .columns

@@ -78,6 +78,11 @@ pre {
   max-width: 600px;
   overflow: scroll; }
 
+tt {
+  background-color: #f0f0f0;
+  padding: 3px 5px;
+  font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace; }
+
 body {
   height: 100vh;
   width: 100vw;
@@ -97,7 +102,7 @@ body {
   margin: 150px auto 75px auto; }
 
 main {
-  width: 70%; }
+  width: 100%; }
   main a, main a:visited {
     color: #333333;
     text-decoration: none;
@@ -203,6 +208,88 @@ figure {
 
 .primary-button:focus {
   outline: 0; }
+
+/*
+======================================
+Grid visualization stuff
+======================================
+*/
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px; }
+  .container pre {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    max-width: none; }
+
+.columns {
+  display: flex; }
+  .columns .column {
+    background-color: #f0f0f0;
+    border: solid 2px #bdbdbd;
+    min-height: 25px;
+    padding: 10px;
+    margin: 10px 0 10px 0; }
+  .columns .full {
+    width: 100%; }
+  .columns .one-half {
+    width: 50%; }
+  .columns .one-third {
+    width: 33.333%; }
+  .columns .one-fourth {
+    width: 25%; }
+  .columns .one-fifth {
+    width: 20%; }
+  .columns .four-fifths {
+    width: 80%; }
+  .columns .three-fourths {
+    width: 75%; }
+  .columns .two-thirds {
+    width: 66.6666667%; }
+
+/*
+======================================
+Styleguide Grid visualization stuff
+======================================
+*/
+.sg-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px; }
+  .sg-container pre {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    max-width: none; }
+
+.sg-columns {
+  display: flex; }
+  .sg-columns .sg-column {
+    background-color: #f0f0f0;
+    border: solid 2px #bdbdbd;
+    min-height: 25px;
+    padding: 10px;
+    margin: 10px 0 10px 0; }
+  .sg-columns .sg-full {
+    width: 100%; }
+  .sg-columns .sg-one-half {
+    width: 50%; }
+  .sg-columns .sg-one-third {
+    width: 33.333%; }
+  .sg-columns .sg-one-fourth {
+    width: 25%; }
+  .sg-columns .sg-one-fifth {
+    width: 20%; }
+  .sg-columns .sg-four-fifths {
+    width: 80%; }
+  .sg-columns .sg-three-fourths {
+    width: 75%; }
+  .sg-columns .sg-two-thirds {
+    width: 66.6666667%; }
 
 /*
 ======================================

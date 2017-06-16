@@ -20,11 +20,13 @@
       <li><a href="branding.php" class="secondary-nav-link sg-active-tab">Branding</a></li>
       <li><a href="typography.php" class="secondary-nav-link">Typography</a></li>
       <li><a href="navigation.php" class="secondary-nav-link">Navigation</a></li>
+      <li><a href="grids.php" class="secondary-nav-link">CSS Grids</a></li>
       <li><a href="elements.php" class="secondary-nav-link">HTML Elements</a></li>
       <li><a href="references.php" class="secondary-nav-link">References</a></li>
     </ul>
   </nav>
   <main>
+    <div class="container">
     <h2>Branding</h2>
     <h3>Website Logo</h3>
     <img src="http://greg.golf/images/greg-logo.svg" alt="Greg Sargent" height="200">
@@ -52,6 +54,7 @@
       <span class="color_swatch_tertiary-color"></span>
       <p><span class="meta-text">hex</span>#333333<span class="meta-text">rgb</span>255, 87, 51</p>
     </div><!-- end color-data -->
+  </div><!--end container -->
   </main>
 </div><!-- end content_wrapper -->
 

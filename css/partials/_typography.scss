@@ -67,3 +67,9 @@ pre {
   max-width: 600px;
   overflow: scroll;
 }
+
+tt {
+  background-color: $filled-box-color;
+  padding: 3px 5px;
+  font-family: $fixed-font-family;
+}

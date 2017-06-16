@@ -7,9 +7,18 @@ $tertiary-color: #ff5733;
 $body-background-color: white;
 $body-text-color: $primary-color;
 $filled-box-color: lighten( $secondary-color, 50% );
+$border-color: #e0e0e0;
+$main-nav-background-color: transparentize( white, .02 );
+$styleguide-grid-container-background-color: $tertiary-color;
+
 $heading-text-color: $primary-color;
 $meta-text-color: $secondary-color;
-$border-color: #e0e0e0;
+$link-color: $primary-color;
+$link-color-hover: $tertiary-color;
+$link-color-active: $tertiary-color;
+$main-nav-link: darken( $primary-color, 20% );
+$main-nav-link-hover: $tertiary-color;
+$main-nav-link-active: $tertiary-color;
 $primary-button-color: $tertiary-color;
 $primary-button-hover-color: darken( $primary-button-color, 20% );
 $primary-button-active-color: darken( $primary-button-color, 10% );
@@ -17,13 +26,8 @@ $secondary-button-border-color: $tertiary-color;
 $secondary-button-text-color: $tertiary-color;
 $secondary-button-hover-color: $tertiary-color;
 $secondary-button-text-hover-color: lighten( $tertiary-color, 50% );
-$link-color: $primary-color;
-$link-color-hover: $tertiary-color;
-$link-color-active: $tertiary-color;
-$main-nav-link: darken( $primary-color, 20% );
-$main-nav-link-hover: $tertiary-color;
-$main-nav-link-active: $tertiary-color;
-$main-nav-background-color: transparentize( white, .02 );
+
+
 
 //styles for color palettes section of style guide
 #color_swatches {

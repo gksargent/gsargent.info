@@ -18,10 +18,12 @@
 
   <div id="content_wrapper">
   <main>
+    <div class="container">
+      <h2>More stuff coming soon...</h2>
 
-    <h2>More stuff coming soon...</h2>
+      <p>I'll eventually have my portfolio here, and I'll be working on it slowly over time. My main focus is on finishing up my degree and designing banking software at Alkami.</p>
+    </div><!-- end container -->
 
-    <p>I'll eventually have my portfolio here, and I'll be working on it slowly over time. My main focus is on finishing up my degree and designing banking software at Alkami.</p>
 
   </main>
 </div><!-- end content_wrapper -->

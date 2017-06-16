@@ -15,9 +15,9 @@
 <div id="content_wrapper">
 
   <main>
-
-    <h1>About</h1>
-
+    <div class="container">
+      <h1>About</h1>
+    </div><!-- end container -->
   </main>
 </div><!-- end content_wrapper -->
 
