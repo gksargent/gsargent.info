@@ -16,27 +16,17 @@
   <nav id="secondary_nav">
     <ul>
       <li><a href="index.php" class="secondary-nav-link">Overview</a></li>
-      <li><a href="layout.php" class="secondary-nav-link sg-active-tab">Layout</a></li>
+      <li><a href="layout.php" class="secondary-nav-link">Layout</a></li>
       <li><a href="branding.php" class="secondary-nav-link">Branding</a></li>
       <li><a href="typography.php" class="secondary-nav-link">Typography</a></li>
       <li><a href="navigation.php" class="secondary-nav-link">Navigation</a></li>
       <li><a href="elements.php" class="secondary-nav-link">HTML Elements</a></li>
-      <li><a href="references.php" class="secondary-nav-link">References</a></li>
+      <li><a href="references.php" class="secondary-nav-link sg-active-tab">References</a></li>
     </ul>
   </nav>
   <main>
-    <h2>Layout</h2>
-    <h3>Sitemap</h3>
-    <img src="/assets/images/sitemap.png" width="100%" alt="Landing Page Wireframe">
-    <h3>Wireframes</h3>
-        <img src="/assets/images/landing-page-wireframe@2x.png" width="100%" alt="Landing Page Wireframe">
-        <img src="/assets/images/content-page-wireframe@2x.png" width="100%" alt="Content Page Wireframe">
+    <h2>References</h2>
 
-    <h3>Photoshop Design</h3>
-    <p>Typically I do all my design work using Sketch, but for this school project the class is working in Photoshop. Download my psd file and see how I've set up the grid, layers and layer comps!</p>
-    <form method="get" action="/assets/files/960_grid_12_col.psd">
-  <button class="primary-button" type="submit">Download PSD</button>
-</form>
   </main>
 </div><!-- end content_wrapper -->
 

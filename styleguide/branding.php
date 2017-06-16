@@ -21,6 +21,7 @@
       <li><a href="typography.php" class="secondary-nav-link">Typography</a></li>
       <li><a href="navigation.php" class="secondary-nav-link">Navigation</a></li>
       <li><a href="elements.php" class="secondary-nav-link">HTML Elements</a></li>
+      <li><a href="references.php" class="secondary-nav-link">References</a></li>
     </ul>
   </nav>
   <main>
