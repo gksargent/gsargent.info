@@ -56,7 +56,7 @@ h6 {
 
 h1 {
   font-size: 50px;
-  font-weight: 200; }
+  font-weight: 300; }
 
 h2 {
   font-size: 40px;
@@ -73,7 +73,7 @@ h3 {
 pre {
   font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
   padding: 30px;
-  margin: 25px auto;
+  margin: 25px 25px 25px 0;
   background-color: #f0f0f0;
   max-width: 600px;
   overflow: scroll; }
@@ -378,7 +378,8 @@ Styleguide Grid visualization stuff
   #secondary_nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    position: fixed; }
     #secondary_nav ul a, #secondary_nav ul a:visited {
       display: block;
       margin: 5px 0;
