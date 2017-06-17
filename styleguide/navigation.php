@@ -26,34 +26,39 @@
       </ul>
     </nav>
     <main>
-      <h2>Navigation</h2>
-      <h3>Main Navigation</h3>
-      <p>The main navigation is sticky to the top of the viewport and is always visible. I've placed a slight transparency on the background color so you can see the content slide underneath as you scroll. I would love to figure out how to implement a background blur without breaking the navigation - that's still a work in progress. For now the links have a hover and active state with a very subtle transition between states. Go ahead and click the links, it won't take you anywhere!
-      <div id="demo_nav_container">
-        <nav id="demo_main_nav">
-          <img src="http://greg.golf/images/greg-logo.svg" alt="Greg Sargent" height="60">
-          <ul>
-            <li><a href="#" class="main-nav-link">Home</a></li>
-            <li><a href="#" class="main-nav-link">About</a></li>
-            <li><a href="#" class="main-nav-link">Articles</a></li>
-            <li><a href="#" class="main-nav-link">Projects</a></li>
-            <li><a href="#" class="main-nav-link">Contact</a></li>
-          </ul>
-        </nav><!-- end demo_main_nav -->
-      </div><!-- demo_nav_container -->
-      <h3>Secondary Navigation</h3>
-      <p>The secondary navigation will be used on content heavy districts within the site, such as this style guide and project pages. Feel free to hover and click on this demo nav, it's not hooked up to anything.</p>
-      <nav id="demo_secondary_nav">
-      <ul>
-        <li><a href="#" class="secondary-nav-link sg-active-tab">Overview</a></li>
-        <li><a href="#" class="secondary-nav-link">Layout</a></li>
-        <li><a href="#" class="secondary-nav-link">Branding</a></li>
-        <li><a href="#" class="secondary-nav-link">Typography</a></li>
-        <li><a href="#" class="secondary-nav-link">Navigation</a></li>
-        <li><a href="#" class="secondary-nav-link">HTML Elements</a></li>
-      </ul>
-    </nav>
-      <h3>Footer Navigation</h3>
+
+      <div class="container">
+
+        <h2>Navigation</h2>
+        <h3>Main Navigation</h3>
+        <p>The main navigation is sticky to the top of the viewport and is always visible. I've placed a slight transparency on the background color so you can see the content slide underneath as you scroll. I would love to figure out how to implement a background blur without breaking the navigation - that's still a work in progress. For now the links have a hover and active state with a very subtle transition between states. Go ahead and click the links, it won't take you anywhere!
+        <div id="demo_nav_container">
+          <nav id="demo_main_nav">
+            <img src="http://greg.golf/images/greg-logo.svg" alt="Greg Sargent" height="60">
+            <ul>
+              <li><a href="#" class="main-nav-link">Home</a></li>
+              <li><a href="#" class="main-nav-link">About</a></li>
+              <li><a href="#" class="main-nav-link">Articles</a></li>
+              <li><a href="#" class="main-nav-link">Projects</a></li>
+              <li><a href="#" class="main-nav-link">Contact</a></li>
+            </ul>
+          </nav><!-- end demo_main_nav -->
+        </div><!-- demo_nav_container -->
+        <h3>Secondary Navigation</h3>
+        <p>The secondary navigation will be used on content heavy districts within the site, such as this style guide and project pages. Feel free to hover and click on this demo nav, it's not hooked up to anything.</p>
+        <nav id="demo_secondary_nav">
+        <ul>
+          <li><a href="#" class="secondary-nav-link sg-active-tab">Overview</a></li>
+          <li><a href="#" class="secondary-nav-link">Layout</a></li>
+          <li><a href="#" class="secondary-nav-link">Branding</a></li>
+          <li><a href="#" class="secondary-nav-link">Typography</a></li>
+          <li><a href="#" class="secondary-nav-link">Navigation</a></li>
+          <li><a href="#" class="secondary-nav-link">HTML Elements</a></li>
+        </ul>
+      </nav>
+
+      </div><!-- end container -->
+
     </main>
 </div><!-- end content_wrapper -->
 

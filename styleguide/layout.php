@@ -26,18 +26,24 @@
     </ul>
   </nav>
   <main>
-    <h2>Layout</h2>
-    <h3>Sitemap</h3>
-    <img src="/assets/images/sitemap.png" width="100%" alt="Landing Page Wireframe">
-    <h3>Wireframes</h3>
-        <img src="/assets/images/landing-page-wireframe@2x.png" width="100%" alt="Landing Page Wireframe">
-        <img src="/assets/images/content-page-wireframe@2x.png" width="100%" alt="Content Page Wireframe">
 
-    <h3>Photoshop Design</h3>
-    <p>Typically I do all my design work using Sketch, but for this school project the class is working in Photoshop. Download my psd file and see how I've set up the grid, layers and layer comps!</p>
-    <form method="get" action="/assets/files/960_grid_12_col.psd">
-  <button class="primary-button" type="submit">Download PSD</button>
-</form>
+    <div class="container">
+
+      <h2>Layout</h2>
+      <h3>Sitemap</h3>
+      <img src="/assets/images/sitemap.png" width="100%" alt="Landing Page Wireframe">
+      <h3>Wireframes</h3>
+          <img src="/assets/images/landing-page-wireframe@2x.png" width="100%" alt="Landing Page Wireframe">
+          <img src="/assets/images/content-page-wireframe@2x.png" width="100%" alt="Content Page Wireframe">
+
+      <h3>Photoshop Design</h3>
+      <p>Typically I do all my design work using Sketch, but for this school project the class is working in Photoshop. Download my psd file and see how I've set up the grid, layers and layer comps!</p>
+      <form method="get" action="/assets/files/960_grid_12_col.psd">
+    <button class="primary-button" type="submit">Download PSD</button>
+  </form>
+
+    </div><!-- end container -->
+
   </main>
 </div><!-- end content_wrapper -->
 

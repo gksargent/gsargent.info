@@ -17,6 +17,14 @@ include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
   <main>
 
+    <div class="container">
+
+      <div class="columns">
+        <!-- enter columns here -->
+
+      </div><!-- end columns -->
+
+    </div><!-- end container -->
 
   </main>
 

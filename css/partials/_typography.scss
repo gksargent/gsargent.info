@@ -47,6 +47,7 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 300;
+  margin-top: 0;
 }
 
 h3 {
@@ -65,7 +66,7 @@ pre {
   margin: 25px 25px 25px 0;
   background-color: $filled-box-color;
   max-width: 600px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 tt {

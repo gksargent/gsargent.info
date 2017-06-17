@@ -26,104 +26,110 @@
     </ul>
   </nav>
   <main>
-    <h2>CSS Grids</h2>
-    <p>I'm using a super simple CSS grid to organize everything within the <tt>main</tt> tags. Based on the GitHub <a href="http://primercss.io/" target="_blank">Primer CSS Toolkit</a> concepts (not using the actual toolkit).</p>
-    <h3>Basic Grid Visualization</h3>
 
-    <div class="sg-container">
+    <div class="container">
 
-      <!-- full column example -->
+      <h2>CSS Grids</h2>
+      <p>I'm using a super simple CSS grid to organize everything within the <tt>main</tt> tags. Based on the GitHub <a href="http://primercss.io/" target="_blank">Primer CSS Toolkit</a> concepts (not using the actual toolkit).</p>
+      <h3>Basic Grid Visualization</h3>
 
-      <div class="sg-columns">
-        <div class="sg-full sg-column">
-          <pre>.full</pre>
-        </div> <!-- end full column -->
-      </div><!-- end columns -->
+      <div class="sg-container">
 
+        <!-- full column example -->
 
-
-      <!-- two column example -->
-
-      <div class="sg-columns">
-        <div class="sg-one-half sg-column">
-          <pre>.one-half</pre>
-        </div> <!-- end half column -->
-        <div class="sg-one-half sg-column">
-          <pre>.one-half</pre>
-        </div> <!-- end half column -->
-      </div><!-- end columns -->
+        <div class="sg-columns">
+          <div class="sg-full sg-column">
+            <pre>.full</pre>
+          </div> <!-- end full column -->
+        </div><!-- end columns -->
 
 
 
-      <!-- three column example -->
+        <!-- two column example -->
 
-      <div class="sg-columns">
-        <div class="sg-one-third sg-column">
-          <pre>.one-third</pre>
-        </div> <!-- end third column -->
-        <div class="sg-one-third sg-column">
-          <pre>.one-third</pre>
-        </div> <!-- end third column -->
-        <div class="sg-one-third sg-column">
-          <pre>.one-third</pre>
-        </div> <!-- end third column -->
-      </div><!-- end columns -->
+        <div class="sg-columns">
+          <div class="sg-one-half sg-column">
+            <pre>.one-half</pre>
+          </div> <!-- end half column -->
+          <div class="sg-one-half sg-column">
+            <pre>.one-half</pre>
+          </div> <!-- end half column -->
+        </div><!-- end columns -->
 
 
 
-      <!-- four column example -->
+        <!-- three column example -->
 
-      <div class="sg-columns">
-        <div class="sg-one-fourth sg-column">
-          <pre>.one-fourth</pre>
-        </div> <!-- end fourth column -->
-        <div class="sg-one-fourth sg-column">
-          <pre>.one-fourth</pre>
-        </div> <!-- end fourth column -->
-        <div class="sg-one-fourth sg-column">
-          <pre>.one-fourth</pre>
-        </div> <!-- end fourth column -->
-        <div class="sg-one-fourth sg-column">
-          <pre>.one-fourth</pre>
-        </div> <!-- end fourth column -->
-      </div><!-- end columns -->
+        <div class="sg-columns">
+          <div class="sg-one-third sg-column">
+            <pre>.one-third</pre>
+          </div> <!-- end third column -->
+          <div class="sg-one-third sg-column">
+            <pre>.one-third</pre>
+          </div> <!-- end third column -->
+          <div class="sg-one-third sg-column">
+            <pre>.one-third</pre>
+          </div> <!-- end third column -->
+        </div><!-- end columns -->
+
+
+
+        <!-- four column example -->
+
+        <div class="sg-columns">
+          <div class="sg-one-fourth sg-column">
+            <pre>.one-fourth</pre>
+          </div> <!-- end fourth column -->
+          <div class="sg-one-fourth sg-column">
+            <pre>.one-fourth</pre>
+          </div> <!-- end fourth column -->
+          <div class="sg-one-fourth sg-column">
+            <pre>.one-fourth</pre>
+          </div> <!-- end fourth column -->
+          <div class="sg-one-fourth sg-column">
+            <pre>.one-fourth</pre>
+          </div> <!-- end fourth column -->
+        </div><!-- end columns -->
+
+      </div><!-- end container -->
+
+
+
+      <h3>Uneven Grid Visualization</h3>
+
+      <div class="sg-container">
+
+        <div class="sg-columns">
+          <div class="sg-one-fifth sg-column">
+            <pre>.one-fifth</pre>
+          </div>
+          <div class="sg-four-fifths sg-column">
+            <pre>.four-fifth</pre>
+          </div>
+        </div><!-- end columns -->
+
+        <div class="sg-columns">
+          <div class="sg-one-fourth sg-column">
+            <pre>.one-fourth</pre>
+          </div>
+          <div class="sg-three-fourths sg-column">
+            <pre>.three-fourths</pre>
+          </div>
+        </div><!-- end conlumns -->
+
+        <div class="sg-columns">
+          <div class="sg-one-third sg-column">
+            <pre>.one-third</pre>
+          </div>
+          <div class="sg-two-thirds sg-column">
+            <pre>.two-thirds</pre>
+          </div>
+        </div><!-- end conlumns -->
+
+      </div><!-- end container -->
 
     </div><!-- end container -->
 
-
-
-    <h3>Uneven Grid Visualization</h3>
-
-    <div class="sg-container">
-
-      <div class="sg-columns">
-        <div class="sg-one-fifth sg-column">
-          <pre>.one-fifth</pre>
-        </div>
-        <div class="sg-four-fifths sg-column">
-          <pre>.four-fifth</pre>
-        </div>
-      </div><!-- end columns -->
-
-      <div class="sg-columns">
-        <div class="sg-one-fourth sg-column">
-          <pre>.one-fourth</pre>
-        </div>
-        <div class="sg-three-fourths sg-column">
-          <pre>.three-fourths</pre>
-        </div>
-      </div><!-- end conlumns -->
-
-      <div class="sg-columns">
-        <div class="sg-one-third sg-column">
-          <pre>.one-third</pre>
-        </div>
-        <div class="sg-two-thirds sg-column">
-          <pre>.two-thirds</pre>
-        </div>
-      </div><!-- end conlumns -->
-
-    </div><!-- end container -->
 
   </main>
 </div><!-- end content_wrapper -->
