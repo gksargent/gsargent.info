@@ -41,7 +41,7 @@ h6 {
 
 h1 {
   font-size: 50px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h2 {
@@ -62,7 +62,7 @@ h3 {
 pre {
   font-family: $fixed-font-family;
   padding: 30px;
-  margin: 25px auto;
+  margin: 25px 25px 25px 0;
   background-color: $filled-box-color;
   max-width: 600px;
   overflow: scroll;
