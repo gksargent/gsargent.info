@@ -224,8 +224,6 @@ Grid visualization stuff
 .columns {
   display: flex; }
   .columns .column {
-    background-color: #f0f0f0;
-    border: solid 2px #bdbdbd;
     min-height: 25px;
     padding: 10px;
     margin: 10px 0 10px 0; }
@@ -432,8 +430,32 @@ Styleguide Grid visualization stuff
   color: #333333 !important; }
 
 #banner {
-  padding: 150px 50px 70px 50px;
-  background-color: whitesmoke; }
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  margin: 90px 0 0 0;
+  padding: 50px 50px 15px 50px;
+  background-image: url("/assets/images/sketch-screenshot.jpg");
+  background-size: cover;
+  background-position: center bottom; }
+  #banner h1 {
+    color: white;
+    font-size: 7vw;
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: 2.5px; }
+  #banner .banner-subheading {
+    color: white;
+    font-size: 18px;
+    max-width: 40vw;
+    line-height: 1.3; }
+  #banner .banner-meta-text {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-transform: uppercase; }
 
 /*
 ======================================
@@ -469,5 +491,42 @@ footer {
       padding: 0 5px; }
     #footer-right-column ul li:before {
       display: none; }
+
+#cta-container {
+  background-color: black;
+  height: 300px;
+  color: black;
+  font-size: 25px; }
+  #cta-container .column {
+    padding: 0px !important;
+    margin: 0px !important; }
+
+#cta-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  overflow: hidden;
+  background-image: url("http://gsargent.info/assets/images/work-office.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  transition: all 250ms ease; }
+
+#cta-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  height: 300px;
+  overflow: hidden;
+  background-image: url("http://gsargent.info/assets/images/home-office.jpg");
+  background-size: cover;
+  transition: all 250ms ease; }
+
+#cta-left:hover, #cta-right:hover {
+  opacity: .8;
+  transform: scale(10%); }
 
 /*# sourceMappingURL=main.processed.css.map */

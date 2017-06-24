@@ -15,8 +15,6 @@ Grid visualization stuff
   display: flex;
 
   .column {
-    background-color: $filled-box-color;
-    border: solid 2px darken( $filled-box-color, 20% );
     min-height: 25px;
     padding: 10px;
     margin: 10px 0 10px 0;
