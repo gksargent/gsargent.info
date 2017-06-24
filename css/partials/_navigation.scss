@@ -55,9 +55,9 @@
 ======================================
 */
 .demo_nav_container {
-  position: relative;
   margin-bottom: 175px;
   margin-top: 20px;
+  position: relative;
 }
 
 .demo_main_nav {
@@ -178,9 +178,9 @@
       line-height: 15px;
       margin: 5px 0;
       padding: 10px 15px;
+      text-decoration: none;
       transition: background-color 200ms,
                   color 20ms;
-      text-decoration: none;
     }// end a, a:visited
 
     a:hover {

@@ -98,8 +98,8 @@ body {
 
 .content_wrapper {
   display: flex;
-  position: inherit;
   margin: 150px auto 75px auto;
+  position: inherit;
   width: 90vw; }
 
 main {
@@ -109,8 +109,8 @@ main {
     color: #333333;
     font-weight: 500;
     padding: 3px 9px;
-    transition: all 100ms;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: all 100ms; }
   main a:hover {
     color: #ff5733; }
   main a:active {
@@ -140,7 +140,8 @@ hr {
   .author_snippet img {
     border-radius: 100%;
     float: left;
-    margin-right: 25px; }
+    margin-right: 25px;
+    width: 100px; }
   .author_snippet p {
     color: #707070; }
 
@@ -150,8 +151,8 @@ li {
 ul {
   list-style: none; }
   ul li::before {
-    content: " \25E6";
     color: #ff5733;
+    content: " \25E6";
     font-size: 25px;
     line-height: 0.75;
     padding-right: 10px; }
@@ -175,8 +176,8 @@ figure {
     margin: 0 auto;
     max-width: 100%; }
   figure figcaption {
-    font-size: 14px;
     color: #707070;
+    font-size: 14px;
     padding: 10px 0; }
   figure i {
     color: #c5c5c5;
@@ -206,17 +207,14 @@ figure {
   box-shadow: 0 4px 10px -5px black;
   transform: scale(1); }
 
-.primary-button:focus {
-  outline: 0; }
-
 /*
 ======================================
 Grid visualization stuff
 ======================================
 */
 .container {
-  max-width: 1100px;
   margin: 10px auto;
+  max-width: 1100px;
   padding: 10px;
   width: 100%; }
 
@@ -325,9 +323,9 @@ Styleguide Grid visualization stuff
 ======================================
 */
 .demo_nav_container {
-  position: relative;
   margin-bottom: 175px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  position: relative; }
 
 .demo_main_nav {
   align-items: center;
@@ -416,8 +414,8 @@ Styleguide Grid visualization stuff
       line-height: 15px;
       margin: 5px 0;
       padding: 10px 15px;
-      transition: background-color 200ms, color 20ms;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: background-color 200ms, color 20ms; }
     .demo_secondary_nav ul a:hover {
       background-color: #f0f0f0;
       color: #707070; }
@@ -443,8 +441,8 @@ Styleguide Grid visualization stuff
     color: white;
     font-size: 7vw;
     letter-spacing: 2.5px;
-    margin-top: 5px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-top: 5px; }
   .banner .banner-subheading {
     color: white;
     font-size: 18px;
@@ -453,7 +451,7 @@ Styleguide Grid visualization stuff
   .banner .banner-meta-text {
     color: white;
     font-size: 14px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-transform: uppercase; }
 
 /*
@@ -497,12 +495,12 @@ footer {
   font-size: 25px;
   height: 300px; }
   .cta-container .column {
-    margin: 0px !important;
-    padding: 0px !important; }
+    margin: 0;
+    padding: 0; }
 
 .cta-left {
   align-items: center;
-  background-image: url("http://gsargent.info/assets/images/work-office.jpg");
+  background-image: url("/assets/images/work-office.jpg");
   background-position: bottom center;
   background-size: cover;
   display: flex;
@@ -515,7 +513,7 @@ footer {
 .cta-right {
   align-items: center;
   background-color: blue;
-  background-image: url("http://gsargent.info/assets/images/home-office.jpg");
+  background-image: url("/assets/images/home-office.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;

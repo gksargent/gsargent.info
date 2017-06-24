@@ -30,15 +30,16 @@
   </main>
 </div><!-- end content_wrapper -->
 
+<!-- call to action container - consider moving this into a module -->
 <div class="cta-container">
   <div class="columns">
-    <div class="cta-left" class="one-half column">
+    <div class="cta-left one-half column">
       <p>Work with a purpose</p>
       <form method="get" action="#">
         <button class="primary-button" type="submit">My Work</button>
       </form>
     </div> <!-- end half column -->
-    <div class="cta-right" class="one-half column">
+    <div class="cta-right one-half column">
       <p>Study with a purpose</p>
       <form method="get" action="#">
         <button class="primary-button" type="submit">My Studies</button>

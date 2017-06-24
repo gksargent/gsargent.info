@@ -5,14 +5,14 @@
   height: 300px;
 
   .column {
-    margin: 0px !important;
-    padding: 0px !important;
+    margin: 0;
+    padding: 0;
   }
 }
 
 .cta-left {
   align-items: center;
-  background-image: url("http://gsargent.info/assets/images/work-office.jpg");
+  background-image: url("/assets/images/work-office.jpg");
   background-position: bottom center;
   background-size: cover;
   display: flex;
@@ -26,7 +26,7 @@
 .cta-right {
   align-items: center;
   background-color: blue;
-  background-image: url("http://gsargent.info/assets/images/home-office.jpg");
+  background-image: url("/assets/images/home-office.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
