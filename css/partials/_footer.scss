@@ -5,35 +5,35 @@
 */
 
 footer {
-    display: flex;
-    padding: 50px;
-    background-color: whitesmoke;
-    font-size: 14px;
-
-    a, a:visited {
-      color: $main-nav-link;
-      text-decoration: none;
-      transition: color .25s ease;
-      background: none;
-    }
-
-    a:hover {
-      color: $main-nav-link-hover;
-    }
-
-    a:active {
-      color: $main-nav-link-active;
-    }
-}
-
-#footer-left-column {
-  width: 50%;
-}
-
-#footer-right-column {
+  background-color: whitesmoke;
   display: flex;
+  font-size: 14px;
+  padding: 50px;
+
+  a, a:visited {
+    background: none;
+    color: $main-nav-link;
+    text-decoration: none;
+    transition: color .25s ease;
+  }
+
+  a:hover {
+    color: $main-nav-link-hover;
+  }
+
+  a:active {
+    color: $main-nav-link-active;
+  }
+}
+
+.footer-left-column {
   width: 50%;
+}
+
+.footer-right-column {
+  display: flex;
   justify-content: flex-end;
+  width: 50%;
 
   ul {
     display: flex;

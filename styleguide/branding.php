@@ -12,8 +12,8 @@
   <?php // This php pulls in header.php to create the header content
   include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-<div id="content_wrapper">
-  <nav id="secondary_nav">
+<div class="content_wrapper">
+  <nav class="secondary_nav">
     <ul>
       <li><a href="index.php" class="secondary-nav-link">Overview</a></li>
       <li><a href="layout.php" class="secondary-nav-link">Layout</a></li>
@@ -31,7 +31,7 @@
     <h3>Website Logo</h3>
     <img src="http://greg.golf/images/greg-logo.svg" alt="Greg Sargent" height="200">
     <h3>Color Pallette</h3>
-    <div id="color_swatches">
+    <div class="color_swatches">
       <span class="color_swatch_primary-color"></span>
       <span class="color_swatch_secondary-color"></span>
       <span class="color_swatch_filled-box-color"></span>

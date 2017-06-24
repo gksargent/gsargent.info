@@ -30,14 +30,14 @@ $secondary-button-text-hover-color: lighten( $tertiary-color, 50% );
 
 
 //styles for color palettes section of style guide
-#color_swatches {
-  display: flex;
-  width: 400px;
-  height: 30px;
-  margin: 0 0 25px 0;
+.color_swatches {
   background-color: white;
   border-radius: 5px;
+  display: flex;
+  height: 30px;
+  margin: 0 0 25px 0;
   overflow: hidden;
+  width: 400px;
 }
 
 .color_swatch_primary-color {

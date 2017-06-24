@@ -12,7 +12,7 @@
   <?php // This php pulls in header.php to create the header content
   include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-  <div id="banner">
+  <div class="banner">
     <h1>BYU-I Web Design &amp; Development</h1>
     <p>I'm currently a junior at Brigham Young University Idaho working on a BS in web design and development with an emphasis on design. Here I'll include links to work I've completed for classes and little things that I'm learning about.</p>
   </div>

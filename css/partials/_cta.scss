@@ -1,42 +1,42 @@
-#cta-container {
+.cta-container {
   background-color: black;
-  height: 300px;
   color: black;
   font-size: 25px;
+  height: 300px;
 
   .column {
-    padding: 0px !important;
     margin: 0px !important;
+    padding: 0px !important;
   }
 }
 
-#cta-left {
+.cta-left {
+  align-items: center;
+  background-image: url("http://gsargent.info/assets/images/work-office.jpg");
+  background-position: bottom center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 300px;
+  justify-content: center;
   overflow: hidden;
-  background-image: url("http://gsargent.info/assets/images/work-office.jpg");
-  background-size: cover;
-  background-position: bottom center;
   transition: all 250ms ease;
 }
 
-#cta-right {
-  display: flex;
-  flex-direction: column;
+.cta-right {
   align-items: center;
-  justify-content: center;
   background-color: blue;
-  height: 300px;
-  overflow: hidden;
   background-image: url("http://gsargent.info/assets/images/home-office.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  overflow: hidden;
   transition: all 250ms ease;
 }
 
-#cta-left:hover, #cta-right:hover {
+.cta-left:hover, .cta-right:hover {
   opacity: .8;
   transform: scale(10%);
 }

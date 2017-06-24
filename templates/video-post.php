@@ -12,7 +12,7 @@
   <?php // This php pulls in header.php to create the header content
   include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-  <div id="banner">
+  <div class="banner">
     <h1>COMM497R Site Walkthrough</h1>
     <p>All semester we have been learning the ins and outs of WordPress, and this video shows the site I have been working on and some of my thoughts on the topic.</p>
   </div>

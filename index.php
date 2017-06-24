@@ -10,15 +10,15 @@
     <?php // This php pulls in header.php to create the header content
     include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-    <div id="banner">
+    <div class="banner">
       <p class="banner-meta-text">Meta text</p>
       <h1 class="banner-heading">Page or article title</h1>
       <p class="banner-subheading">Short blurb or description here, and a little more text to get the line to wrap.</p>
-      <div id="banner-img">
+      <div class="banner-img">
       </div>
     </div>
 
-  <div id="content_wrapper">
+  <div class="content_wrapper">
   <main>
     <div class="container">
       <h2>More stuff coming soon...</h2>
@@ -30,15 +30,15 @@
   </main>
 </div><!-- end content_wrapper -->
 
-<div id="cta-container">
+<div class="cta-container">
   <div class="columns">
-    <div id="cta-left" class="one-half column">
+    <div class="cta-left" class="one-half column">
       <p>Work with a purpose</p>
       <form method="get" action="#">
         <button class="primary-button" type="submit">My Work</button>
       </form>
     </div> <!-- end half column -->
-    <div id="cta-right" class="one-half column">
+    <div class="cta-right" class="one-half column">
       <p>Study with a purpose</p>
       <form method="get" action="#">
         <button class="primary-button" type="submit">My Studies</button>

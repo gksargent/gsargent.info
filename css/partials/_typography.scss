@@ -33,10 +33,10 @@ h3, h4, h5 {
 }
 
 h6 {
-  text-transform: uppercase;
   color: $secondary-color;
   font-size: 16px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -56,21 +56,21 @@ h3 {
 }
 
 .meta-text {
-  text-transform: uppercase;
   color: lighten( $secondary-color, 25% );
+  text-transform: uppercase;
 }
 
 pre {
-  font-family: $fixed-font-family;
-  padding: 30px;
-  margin: 25px 25px 25px 0;
   background-color: $filled-box-color;
+  font-family: $fixed-font-family;
+  margin: 25px 25px 25px 0;
   max-width: 600px;
   overflow: auto;
+  padding: 30px;
 }
 
 tt {
   background-color: $filled-box-color;
-  padding: 3px 5px;
   font-family: $fixed-font-family;
+  padding: 3px 5px;
 }

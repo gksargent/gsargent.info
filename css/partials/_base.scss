@@ -5,35 +5,35 @@ $large-dark-shadow: 0 15px 50px -25px black;
 //base styles
 
 body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
   background-color: $body-background-color;
   color: $body-text-color;
   font-family: $body-font-family;
   font-size: 19px;
-  line-height: 1.3;
   font-weight: 400;
+  height: 100vh;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
 }
 
-#content_wrapper {
+.content_wrapper {
   display: flex;
   position: inherit;
-  width: 90vw;
   margin: 150px auto 75px auto;
+  width: 90vw;
 }
 
 main {
   width: 100%;
 
   a, a:visited {
-    color: $link-color;
-    text-decoration: none;
-    font-weight: 500;
     background-color: whitesmoke;
+    color: $link-color;
+    font-weight: 500;
     padding: 3px 9px;
     transition: all 100ms;
+    text-decoration: none;
   }
 
   a:hover {
@@ -46,32 +46,31 @@ main {
 }
 
 hr {
-  width: 90%;
   border: solid 1px $border-color;
+  width: 90%;
 }
 
 .subheader {
   max-width: 500px;
 }
 
-#the_stage {
-  width: 75%;
-  min-height: 200px;
+.the_stage {
   background-color: white;
+  border-radius: 10px;
+  box-shadow: $large-dark-shadow;
   display: flex;
   margin: 50px auto;
-  border-radius: 10px;
+  min-height: 200px;
   padding: 50px;
-  box-shadow: $large-dark-shadow;
+  width: 75%;
 }
 
-#author_snippet {
+.author_snippet {
   display: block;
-  max-width: 600px;
   margin: 50px auto;
+  max-width: 600px;
 
   img {
-    width: 90px;
     border-radius: 100%;
     float: left;
     margin-right: 25px;
@@ -92,9 +91,9 @@ ul {
   li::before {
     content: " \25E6";
     color: $tertiary-color;
-    padding-right: 10px;
     font-size: 25px;
     line-height: 0.75;
+    padding-right: 10px;
   }
 }
 
@@ -107,25 +106,25 @@ ol li {
 }
 
 ol li:before {
-  content: counter(item) ". ";
-  counter-increment: item;
   color: red;
+  content: counter(item) ".";
+  counter-increment: item;
 }
 
 figure {
   background-color: $filled-box-color;
-  padding: 20px 20px 0 20px;
   max-width: 600px;
+  padding: 20px 20px 0 20px;
 
   img {
-    max-width: 100%;
     margin: 0 auto;
+    max-width: 100%;
   }
 
   figcaption {
     font-size: 14px;
-    padding: 10px 0;
     color: $secondary-color;
+    padding: 10px 0;
   }
 
   i {

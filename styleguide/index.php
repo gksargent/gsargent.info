@@ -12,9 +12,9 @@
   <?php // This php pulls in header.php to create the header content
   include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-<div id="content_wrapper">
+<div class="content_wrapper">
 
-  <nav id="secondary_nav">
+  <nav class="secondary_nav">
     <ul>
       <li><a href="index.php" class="secondary-nav-link sg-active-tab">Overview</a></li>
       <li><a href="layout.php" class="secondary-nav-link">Layout</a></li>
