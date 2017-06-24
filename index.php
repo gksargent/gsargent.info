@@ -10,11 +10,13 @@
     <?php // This php pulls in header.php to create the header content
     include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-  <div id="banner">
-    <p>Hi I'm Greg. I'm a
-    <h1>UX/UI Designer at Alkami.</h1>
-    <p>I'm also finishing up a web design and development degree at BYU-I.</p>
-  </div>
+    <div id="banner">
+      <p class="banner-meta-text">Meta text</p>
+      <h1 class="banner-heading">Page or article title</h1>
+      <p class="banner-subheading">Short blurb or description here, and a little more text to get the line to wrap.</p>
+      <div id="banner-img">
+      </div>
+    </div>
 
   <div id="content_wrapper">
   <main>
@@ -27,6 +29,23 @@
 
   </main>
 </div><!-- end content_wrapper -->
+
+<div id="cta-container">
+  <div class="columns">
+    <div id="cta-left" class="one-half column">
+      <p>Work with a purpose</p>
+      <form method="get" action="#">
+        <button class="primary-button" type="submit">My Work</button>
+      </form>
+    </div> <!-- end half column -->
+    <div id="cta-right" class="one-half column">
+      <p>Study with a purpose</p>
+      <form method="get" action="#">
+        <button class="primary-button" type="submit">My Studies</button>
+      </form>
+    </div> <!-- end half column -->
+  </div><!-- end columns -->
+</div><!-- end cta-container -->
 
 
   <?php // This php pulls in footer.php to create the footer content
