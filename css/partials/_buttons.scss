@@ -1,17 +1,17 @@
 .primary-button {
-  display: inline-block;
   background-color: darken( $tertiary-color, 5% );
-  color: white;
   border: none;
   border-radius: 3px;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-family: $body-font-family;
-  padding: 15px 25px;
-  cursor: pointer;
   box-shadow: 0 4px 10px -5px black;
-  transition: color 250ms ease, 
-              background-color 250ms ease, 
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $body-font-family;
+  font-size: 17px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  transition: color 250ms ease,
+              background-color 250ms ease,
               box-shadow 250ms ease,
               transform 150ms ease;
 }
@@ -26,8 +26,4 @@
   background-color: darken( $tertiary-color, 15% );
   box-shadow: 0 4px 10px -5px black;
   transform: scale(1);
-}
-
-.primary-button:focus {
-  outline: 0;
 }

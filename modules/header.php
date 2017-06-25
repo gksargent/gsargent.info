@@ -1,5 +1,5 @@
 <header>
-  <nav id="main_nav">
+  <nav class="main_nav">
     <img src="http://greg.golf/images/greg-logo.svg" alt="Greg Sargent" height="60">
     <ul>
       <li><a href="/" class="main-nav-link">Home</a></li>

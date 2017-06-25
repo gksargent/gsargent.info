@@ -1,11 +1,11 @@
   <footer>
 
-    <div id="footer-left-column">
+    <div class="footer-left-column">
       <p><span class="text-tertiary">&copy;</span> Greg Sargent &nbsp; | &nbsp; Proudly coded from scratch.</p>
       <a href="/styleguide">Style Guide</a>
     </div>
 
-    <div id="footer-right-column">
+    <div class="footer-right-column">
       <ul>
         <li><a href="https://www.linkedin.com/in/gksargent/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
         <li><a href="https://dribbble.com/gksargent" target="_blank"><i class="fa fa-dribbble fa-lg" aria-hidden="true"></i></a></li>

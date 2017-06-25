@@ -1,4 +1,4 @@
-<nav id="secondary_nav">
+<nav class="secondary_nav">
   <ul>
     <li><a href="index.php" class="secondary-nav-link sg-active-tab">Overview</a></li>
     <li><a href="layout.php" class="secondary-nav-link">Layout</a></li>

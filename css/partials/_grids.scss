@@ -5,19 +5,19 @@ Grid visualization stuff
 */
 
 .container {
-  max-width: 1100px;
-  width: 100%;
   margin: 10px auto;
+  max-width: 1100px;
   padding: 10px;
+  width: 100%;
 }
 
 .columns {
   display: flex;
 
   .column {
+    margin: 10px 0 10px 0;
     min-height: 25px;
     padding: 10px;
-    margin: 10px 0 10px 0;
   }
 
   .full {
@@ -62,16 +62,16 @@ Styleguide Grid visualization stuff
 */
 
 .sg-container {
-  max-width: 1100px;
-  width: 100%;
   margin: 10px;
+  max-width: 1100px;
   padding: 10px;
+  width: 100%;
 
   pre {
-    padding: 0;
-    margin: 0;
     background-color: transparent;
+    margin: 0;
     max-width: none;
+    padding: 0;
   }
 }
 
@@ -81,9 +81,9 @@ Styleguide Grid visualization stuff
   .sg-column {
     background-color: $filled-box-color;
     border: solid 2px darken( $filled-box-color, 20% );
+    margin: 10px 0 10px 0;
     min-height: 25px;
     padding: 10px;
-    margin: 10px 0 10px 0;
   }
 
   .sg-full {

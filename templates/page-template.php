@@ -13,7 +13,7 @@
 <?php // This php pulls in header.php to create the header content
 include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-<div id="content_wrapper">
+<div class="content_wrapper">
 
   <main>
 

@@ -4,15 +4,15 @@
 ======================================
 */
 
-#main_nav {
-  display: flex;
-  position: fixed;
-  top: 0;
+.main_nav {
   align-items: center;
   background-color: $main-nav-background-color;
-  width: 90vw;
-  padding: 15px 5vw;
   box-shadow: 0 1px 45px rgba(0, 0, 0, 0.20);
+  display: flex;
+  padding: 15px 5vw;
+  position: fixed;
+  top: 0;
+  width: 90vw;
   z-index: 3000;
 
   img {
@@ -24,8 +24,8 @@
     list-style-type: none;
 
     li {
-      padding: 5px;
       margin: 0 5px;
+      padding: 5px;
     }
 
     li:before {
@@ -35,9 +35,9 @@
 
   a, a:visited {
     color: $main-nav-link;
+    font-size: 16px;
     text-decoration: none;
     transition: color 150ms;
-    font-size: 16px;
   }
 
   a:hover {
@@ -54,21 +54,21 @@
     Demo navigation for styleguide
 ======================================
 */
-#demo_nav_container {
-  position: relative;
-  margin-top: 20px;
+.demo_nav_container {
   margin-bottom: 175px;
+  margin-top: 20px;
+  position: relative;
 }
 
-#demo_main_nav {
-  display: flex;
-  position: absolute;
-  top: 0;
+.demo_main_nav {
   align-items: center;
   background-color: $main-nav-background-color;
-  width: auto;
-  padding: 15px 5vw;
   box-shadow: 0 1px 45px rgba(0, 0, 0, 0.20);
+  display: flex;
+  padding: 15px 5vw;
+  position: absolute;
+  top: 0;
+  width: auto;
 
   img {
     margin-right: 75px;
@@ -79,8 +79,8 @@
     list-style-type: none;
 
     li {
-      padding: 5px;
       margin: 0 5px;
+      padding: 5px;
     }
 
     li:before {
@@ -89,10 +89,10 @@
   }//end ul
 
   a, a:visited {
+    background: none;
     color: $main-nav-link;
     text-decoration: none;
     transition: color .25s ease;
-    background: none;
   }
 
   a:hover {
@@ -111,11 +111,11 @@
 ======================================
 */
 
-#secondary_nav {
-  margin: 0 50px 0 0;
-  width: 25%;
-  max-width: 240px;
+.secondary_nav {
   height: 100vh;
+  margin: 0 50px 0 0;
+  max-width: 240px;
+  width: 25%;
 
   ul {
     list-style-type: none;
@@ -124,17 +124,17 @@
     position: fixed;
 
     a, a:visited {
-      display: block;
-      margin: 5px 0;
-      padding: 10px 15px;
+      background-color: white;
       border-radius: 5px;
-      transition: background-color 200ms,
-                  color 20ms;
       color: $secondary-color;
+      display: block;
       font-size: 15px;
       line-height: 15px;
+      margin: 5px 0;
+      padding: 10px 15px;
       text-decoration: none;
-      background-color: white;
+      transition: background-color 200ms,
+                  color 20ms;
     }// end a, a:visited
 
     a:hover {
@@ -159,10 +159,10 @@
 ======================================
 */
 
-#demo_secondary_nav {
+.demo_secondary_nav {
   margin: 0 50px 0 0;
-  width: 25%;
   max-width: 240px;
+  width: 25%;
 
   ul {
     list-style-type: none;
@@ -170,17 +170,17 @@
     padding: 0;
 
     a, a:visited {
-      display: block;
-      margin: 5px 0;
-      padding: 10px 15px;
+      background-color: white;
       border-radius: 5px;
-      transition: background-color 200ms,
-                  color 20ms;
       color: $secondary-color;
+      display: block;
       font-size: 15px;
       line-height: 15px;
+      margin: 5px 0;
+      padding: 10px 15px;
       text-decoration: none;
-      background-color: white;
+      transition: background-color 200ms,
+                  color 20ms;
     }// end a, a:visited
 
     a:hover {
