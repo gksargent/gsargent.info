@@ -1,0 +1,200 @@
+/*
+======================================
+            Main navigation
+======================================
+*/
+
+.main_nav {
+  align-items: center;
+  background-color: $main-nav-background-color;
+  box-shadow: 0 1px 45px rgba(0, 0, 0, 0.20);
+  display: flex;
+  padding: 15px 5vw;
+  position: fixed;
+  top: 0;
+  width: 90vw;
+  z-index: 3000;
+
+  img {
+    margin-right: 75px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      margin: 0 5px;
+      padding: 5px;
+    }
+
+    li:before {
+      display: none;
+    }
+  }//end ul
+
+  a, a:visited {
+    color: $main-nav-link;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 150ms;
+  }
+
+  a:hover {
+    color: $main-nav-link-hover;
+  }
+
+  a:active {
+    color: $main-nav-link-active;
+  }
+}
+
+/*
+======================================
+    Demo navigation for styleguide
+======================================
+*/
+.demo_nav_container {
+  margin-bottom: 175px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.demo_main_nav {
+  align-items: center;
+  background-color: $main-nav-background-color;
+  box-shadow: 0 1px 45px rgba(0, 0, 0, 0.20);
+  display: flex;
+  padding: 15px 5vw;
+  position: absolute;
+  top: 0;
+  width: auto;
+
+  img {
+    margin-right: 75px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      margin: 0 5px;
+      padding: 5px;
+    }
+
+    li:before {
+      display: none;
+    }
+  }//end ul
+
+  a, a:visited {
+    background: none;
+    color: $main-nav-link;
+    text-decoration: none;
+    transition: color .25s ease;
+  }
+
+  a:hover {
+    color: $main-nav-link-hover;
+  }
+
+  a:active {
+    color: $main-nav-link-active;
+  }
+}
+
+
+/*
+======================================
+         Secondary navigation
+======================================
+*/
+
+.secondary_nav {
+  height: 100vh;
+  margin: 0 50px 0 0;
+  max-width: 240px;
+  width: 25%;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+    a, a:visited {
+      background-color: white;
+      border-radius: 5px;
+      color: $secondary-color;
+      display: block;
+      font-size: 15px;
+      line-height: 15px;
+      margin: 5px 0;
+      padding: 10px 15px;
+      text-decoration: none;
+      transition: background-color 200ms,
+                  color 20ms;
+    }// end a, a:visited
+
+    a:hover {
+      background-color: $filled-box-color;
+      color: $secondary-color;
+    }
+  }//end ul
+
+  li:before {
+    display: none;
+  }
+}
+
+.sg-active-tab {
+      background-color: $filled-box-color !important;
+      color: $primary-color !important;
+    }
+
+/*
+======================================
+  Demo secondary nav for styleguide
+======================================
+*/
+
+.demo_secondary_nav {
+  margin: 0 50px 0 0;
+  max-width: 240px;
+  width: 25%;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    a, a:visited {
+      background-color: white;
+      border-radius: 5px;
+      color: $secondary-color;
+      display: block;
+      font-size: 15px;
+      line-height: 15px;
+      margin: 5px 0;
+      padding: 10px 15px;
+      text-decoration: none;
+      transition: background-color 200ms,
+                  color 20ms;
+    }// end a, a:visited
+
+    a:hover {
+      background-color: $filled-box-color;
+      color: $secondary-color;
+    }
+  }//end ul
+
+  li:before {
+    display: none;
+  }
+}
+
+.sg-active-tab {
+      background-color: $filled-box-color !important;
+      color: $primary-color !important;
+    }

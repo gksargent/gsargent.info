@@ -1,0 +1,50 @@
+/*
+======================================
+             Footer stuff
+======================================
+*/
+
+footer {
+  background-color: whitesmoke;
+  display: flex;
+  font-size: 14px;
+  padding: 50px;
+
+  a, a:visited {
+    background: none;
+    color: $main-nav-link;
+    text-decoration: none;
+    transition: color .25s ease;
+  }
+
+  a:hover {
+    color: $main-nav-link-hover;
+  }
+
+  a:active {
+    color: $main-nav-link-active;
+  }
+}
+
+.footer-left-column {
+  width: 50%;
+}
+
+.footer-right-column {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      padding: 0 5px;
+    }
+
+    li:before {
+      display: none;
+    }
+  }
+}

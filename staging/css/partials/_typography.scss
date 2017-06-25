@@ -1,0 +1,76 @@
+$body-font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+$heading-font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+$fixed-font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+//Body font
+$body-font-weight: $regular;
+$body-font-size: 17px;
+$body-line-height: 1.3;
+
+//Fixed font
+$fixed-font-size: 15px;
+$fixed-line-height: $body-line-height;
+
+//Meta text font
+$meta-text-font-size: 10px;
+$meta-text-line-height: 1;
+
+h1.styleguide-heading-example, h2.styleguide-heading-example, h3.styleguide-heading-example, h4.styleguide-heading-example, h5.styleguide-heading-example, h6.styleguide-heading-example {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading-text-color;
+}
+
+h3, h4, h5 {
+  margin-top: 50px;
+}
+
+h6 {
+  color: $secondary-color;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.meta-text {
+  color: lighten( $secondary-color, 25% );
+  text-transform: uppercase;
+}
+
+pre {
+  background-color: $filled-box-color;
+  font-family: $fixed-font-family;
+  margin: 25px 25px 25px 0;
+  max-width: 600px;
+  overflow: auto;
+  padding: 30px;
+}
+
+tt {
+  background-color: $filled-box-color;
+  font-family: $fixed-font-family;
+  padding: 3px 5px;
+}

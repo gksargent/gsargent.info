@@ -1,0 +1,29 @@
+.primary-button {
+  background-color: darken( $tertiary-color, 5% );
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 4px 10px -5px black;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $body-font-family;
+  font-size: 17px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  transition: color 250ms ease,
+              background-color 250ms ease,
+              box-shadow 250ms ease,
+              transform 150ms ease;
+}
+
+.primary-button:hover {
+  background-color: darken( $tertiary-color, 10% );
+  box-shadow: 0 4px 20px -5px black;
+  transform: scale(1.01);
+}
+
+.primary-button:active {
+  background-color: darken( $tertiary-color, 15% );
+  box-shadow: 0 4px 10px -5px black;
+  transform: scale(1);
+}
