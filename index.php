@@ -10,13 +10,11 @@
     <?php // This php pulls in header.php to create the header content
     include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-    <div class="banner">
-      <p class="banner-meta-text">Meta text</p>
-      <h1 class="banner-heading">Page or article title</h1>
-      <p class="banner-subheading">Short blurb or description here, and a little more text to get the line to wrap.</p>
-      <div class="banner-img">
-      </div>
-    </div>
+  <div class="banner">
+    <p class="banner-meta-text">Meta text</p>
+    <h1>Page Title</h1>
+    <p class="banner-subheading">Short blurb or description here, and a little more text to get the line to wrap.</p>
+  </div>
 
   <div class="content_wrapper">
   <main>

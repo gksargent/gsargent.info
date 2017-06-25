@@ -1,0 +1,476 @@
+
+
+csslint: There are 95 problems in /Users/gsargent/gsargent.info/css/main.processed.css.
+
+main.processed.css
+1: warning at line 2, col 1
+Don't use IDs in selectors.
+#color_swatches {
+
+main.processed.css
+2: warning at line 45, col 1
+Heading (h1) has already been defined.
+h1, h2, h3, h4, h5, h6 {
+
+main.processed.css
+3: warning at line 45, col 9
+Heading (h3) has already been defined.
+h1, h2, h3, h4, h5, h6 {
+
+main.processed.css
+4: warning at line 45, col 13
+Heading (h4) has already been defined.
+h1, h2, h3, h4, h5, h6 {
+
+main.processed.css
+5: warning at line 45, col 17
+Heading (h5) has already been defined.
+h1, h2, h3, h4, h5, h6 {
+
+main.processed.css
+6: warning at line 45, col 21
+Heading (h6) has already been defined.
+h1, h2, h3, h4, h5, h6 {
+
+main.processed.css
+7: warning at line 45, col 5
+Heading (h2) has already been defined.
+h1, h2, h3, h4, h5, h6 {
+
+main.processed.css
+8: warning at line 48, col 5
+Heading (h4) has already been defined.
+h3, h4, h5 {
+
+main.processed.css
+9: warning at line 48, col 9
+Heading (h5) has already been defined.
+h3, h4, h5 {
+
+main.processed.css
+10: warning at line 48, col 1
+Heading (h3) has already been defined.
+h3, h4, h5 {
+
+main.processed.css
+11: warning at line 51, col 1
+Heading (h6) has already been defined.
+h6 {
+
+main.processed.css
+12: warning at line 57, col 1
+Heading (h1) has already been defined.
+h1 {
+
+main.processed.css
+13: warning at line 61, col 1
+Heading (h2) has already been defined.
+h2 {
+
+main.processed.css
+14: warning at line 66, col 1
+Heading (h3) has already been defined.
+h3 {
+
+main.processed.css
+15: warning at line 99, col 1
+Don't use IDs in selectors.
+#content_wrapper {
+
+main.processed.css
+16: warning at line 99, col 1
+Rule doesn't have all its properties in alphabetical order.
+#content_wrapper {
+
+main.processed.css
+17: warning at line 107, col 3
+Rule doesn't have all its properties in alphabetical order.
+  main a, main a:visited {
+
+main.processed.css
+18: warning at line 120, col 3
+Using width with border can sometimes make elements larger than you expect.
+  border: solid 1px #e0e0e0;
+
+main.processed.css
+19: warning at line 126, col 1
+Don't use IDs in selectors.
+#the_stage {
+
+main.processed.css
+20: warning at line 133, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 50px;
+
+main.processed.css
+21: warning at line 136, col 1
+Don't use IDs in selectors.
+#author_snippet {
+
+main.processed.css
+22: warning at line 140, col 3
+Don't use IDs in selectors.
+  #author_snippet img {
+
+main.processed.css
+23: warning at line 144, col 3
+Don't use IDs in selectors.
+  #author_snippet p {
+
+main.processed.css
+24: warning at line 152, col 3
+Rule doesn't have all its properties in alphabetical order.
+  ul li::before {
+
+main.processed.css
+25: warning at line 177, col 3
+Rule doesn't have all its properties in alphabetical order.
+  figure figcaption {
+
+main.processed.css
+26: warning at line 209, col 1
+Outlines shouldn't be hidden unless other visual changes are made.
+.primary-button:focus {
+
+main.processed.css
+27: warning at line 217, col 1
+Rule doesn't have all its properties in alphabetical order.
+.container {
+
+main.processed.css
+28: warning at line 220, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 10px;
+
+main.processed.css
+29: warning at line 254, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 10px;
+
+main.processed.css
+30: warning at line 292, col 1
+Don't use IDs in selectors.
+#main_nav {
+
+main.processed.css
+31: warning at line 294, col 3
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+  background-color: rgba(255, 255, 255, 0.98);
+
+main.processed.css
+32: warning at line 297, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 15px 5vw;
+
+main.processed.css
+33: warning at line 302, col 3
+Don't use IDs in selectors.
+  #main_nav img {
+
+main.processed.css
+34: warning at line 304, col 3
+Don't use IDs in selectors.
+  #main_nav ul {
+
+main.processed.css
+35: warning at line 307, col 5
+Don't use IDs in selectors.
+    #main_nav ul li {
+
+main.processed.css
+36: warning at line 310, col 5
+Don't use IDs in selectors.
+    #main_nav ul li:before {
+
+main.processed.css
+37: warning at line 312, col 16
+Don't use IDs in selectors.
+  #main_nav a, #main_nav a:visited {
+
+main.processed.css
+38: warning at line 312, col 3
+Don't use IDs in selectors.
+  #main_nav a, #main_nav a:visited {
+
+main.processed.css
+39: warning at line 317, col 3
+Don't use IDs in selectors.
+  #main_nav a:hover {
+
+main.processed.css
+40: warning at line 319, col 3
+Don't use IDs in selectors.
+  #main_nav a:active {
+
+main.processed.css
+41: warning at line 327, col 1
+Don't use IDs in selectors.
+#demo_nav_container {
+
+main.processed.css
+42: warning at line 327, col 1
+Rule doesn't have all its properties in alphabetical order.
+#demo_nav_container {
+
+main.processed.css
+43: warning at line 332, col 1
+Don't use IDs in selectors.
+#demo_main_nav {
+
+main.processed.css
+44: warning at line 334, col 3
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+  background-color: rgba(255, 255, 255, 0.98);
+
+main.processed.css
+45: warning at line 341, col 3
+Don't use IDs in selectors.
+  #demo_main_nav img {
+
+main.processed.css
+46: warning at line 343, col 3
+Don't use IDs in selectors.
+  #demo_main_nav ul {
+
+main.processed.css
+47: warning at line 346, col 5
+Don't use IDs in selectors.
+    #demo_main_nav ul li {
+
+main.processed.css
+48: warning at line 349, col 5
+Don't use IDs in selectors.
+    #demo_main_nav ul li:before {
+
+main.processed.css
+49: warning at line 351, col 3
+Don't use IDs in selectors.
+  #demo_main_nav a, #demo_main_nav a:visited {
+
+main.processed.css
+50: warning at line 351, col 21
+Don't use IDs in selectors.
+  #demo_main_nav a, #demo_main_nav a:visited {
+
+main.processed.css
+51: warning at line 356, col 3
+Don't use IDs in selectors.
+  #demo_main_nav a:hover {
+
+main.processed.css
+52: warning at line 358, col 3
+Don't use IDs in selectors.
+  #demo_main_nav a:active {
+
+main.processed.css
+53: warning at line 366, col 1
+Don't use IDs in selectors.
+#secondary_nav {
+
+main.processed.css
+54: warning at line 371, col 3
+Don't use IDs in selectors.
+  #secondary_nav ul {
+
+main.processed.css
+55: warning at line 376, col 5
+Don't use IDs in selectors.
+    #secondary_nav ul a, #secondary_nav ul a:visited {
+
+main.processed.css
+56: warning at line 376, col 26
+Don't use IDs in selectors.
+    #secondary_nav ul a, #secondary_nav ul a:visited {
+
+main.processed.css
+57: warning at line 387, col 5
+Don't use IDs in selectors.
+    #secondary_nav ul a:hover {
+
+main.processed.css
+58: warning at line 390, col 3
+Don't use IDs in selectors.
+  #secondary_nav li:before {
+
+main.processed.css
+59: warning at line 394, col 3
+Use of !important
+  background-color: #f0f0f0 !important;
+
+main.processed.css
+60: warning at line 395, col 3
+Use of !important
+  color: #333333 !important; }
+
+main.processed.css
+61: warning at line 402, col 1
+Don't use IDs in selectors.
+#demo_secondary_nav {
+
+main.processed.css
+62: warning at line 406, col 3
+Don't use IDs in selectors.
+  #demo_secondary_nav ul {
+
+main.processed.css
+63: warning at line 410, col 5
+Don't use IDs in selectors.
+    #demo_secondary_nav ul a, #demo_secondary_nav ul a:visited {
+
+main.processed.css
+64: warning at line 410, col 31
+Don't use IDs in selectors.
+    #demo_secondary_nav ul a, #demo_secondary_nav ul a:visited {
+
+main.processed.css
+65: warning at line 410, col 5
+Rule doesn't have all its properties in alphabetical order.
+    #demo_secondary_nav ul a, #demo_secondary_nav ul a:visited {
+
+main.processed.css
+66: warning at line 421, col 5
+Don't use IDs in selectors.
+    #demo_secondary_nav ul a:hover {
+
+main.processed.css
+67: warning at line 424, col 3
+Don't use IDs in selectors.
+  #demo_secondary_nav li:before {
+
+main.processed.css
+68: warning at line 428, col 3
+Use of !important
+  background-color: #f0f0f0 !important;
+
+main.processed.css
+69: warning at line 429, col 3
+Use of !important
+  color: #333333 !important; }
+
+main.processed.css
+70: warning at line 431, col 1
+Don't use IDs in selectors.
+#banner {
+
+main.processed.css
+71: warning at line 440, col 3
+Using height with padding can sometimes make elements larger than you expect.
+  padding: 50px 50px 15px 50px;
+
+main.processed.css
+72: warning at line 442, col 3
+Don't use IDs in selectors.
+  #banner h1 {
+
+main.processed.css
+73: warning at line 442, col 11
+Heading (h1) should not be qualified.
+  #banner h1 {
+
+main.processed.css
+74: warning at line 442, col 11
+Heading (h1) has already been defined.
+  #banner h1 {
+
+main.processed.css
+75: warning at line 442, col 3
+Rule doesn't have all its properties in alphabetical order.
+  #banner h1 {
+
+main.processed.css
+76: warning at line 448, col 3
+Don't use IDs in selectors.
+  #banner .banner-subheading {
+
+main.processed.css
+77: warning at line 453, col 3
+Don't use IDs in selectors.
+  #banner .banner-meta-text {
+
+main.processed.css
+78: warning at line 456, col 20
+Values of 0 shouldn't have units specified.
+    margin-bottom: 0px;
+
+main.processed.css
+79: warning at line 479, col 1
+Don't use IDs in selectors.
+#footer-left-column {
+
+main.processed.css
+80: warning at line 482, col 1
+Don't use IDs in selectors.
+#footer-right-column {
+
+main.processed.css
+81: warning at line 486, col 3
+Don't use IDs in selectors.
+  #footer-right-column ul {
+
+main.processed.css
+82: warning at line 489, col 5
+Don't use IDs in selectors.
+    #footer-right-column ul li {
+
+main.processed.css
+83: warning at line 491, col 5
+Don't use IDs in selectors.
+    #footer-right-column ul li:before {
+
+main.processed.css
+84: warning at line 494, col 1
+Don't use IDs in selectors.
+#cta-container {
+
+main.processed.css
+85: warning at line 499, col 3
+Don't use IDs in selectors.
+  #cta-container .column {
+
+main.processed.css
+86: warning at line 500, col 5
+Use of !important
+    margin: 0px !important;
+
+main.processed.css
+87: warning at line 500, col 13
+Values of 0 shouldn't have units specified.
+    margin: 0px !important;
+
+main.processed.css
+88: warning at line 501, col 5
+Use of !important
+    padding: 0px !important; }
+
+main.processed.css
+89: warning at line 501, col 14
+Values of 0 shouldn't have units specified.
+    padding: 0px !important; }
+
+main.processed.css
+90: warning at line 503, col 1
+Don't use IDs in selectors.
+#cta-left {
+
+main.processed.css
+91: warning at line 515, col 1
+Don't use IDs in selectors.
+#cta-right {
+
+main.processed.css
+92: warning at line 527, col 1
+Don't use IDs in selectors.
+#cta-left:hover, #cta-right:hover {
+
+main.processed.css
+93: warning at line 527, col 18
+Don't use IDs in selectors.
+#cta-left:hover, #cta-right:hover {
+
+main.processed.css
+94: warning
+Too many font-size declarations (16), abstraction needed.
+
+main.processed.css
+95: warning
+You have 4 h1s, 3 h2s, 4 h3s, 3 h4s, 3 h5s, 3 h6s defined in this stylesheet.

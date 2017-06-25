@@ -1,6 +1,10 @@
 
 
+<<<<<<< HEAD
+csslint: There are 131 problems in C:\Users\Greg\Documents\GitHub\gsargent.info\css\main.processed.css.
+=======
 csslint: There are 131 problems in /Users/gsargent/gsargent.info/css/main.processed.css.
+>>>>>>> 54ff514a103bd762f3001ade6cebde9831b68ddf
 
 main.processed.css
 1: warning at line 2, col 1
