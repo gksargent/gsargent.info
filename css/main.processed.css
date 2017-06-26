@@ -427,33 +427,65 @@ Styleguide Grid visualization stuff
   color: #333333 !important; }
 
 .banner {
-  background-image: url("/assets/images/sketch-screenshot.jpg");
-  background-position: center bottom;
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  min-height: 300px;
   justify-content: flex-end;
-  margin: 90px 0 0 0;
-  padding: 50px 50px 15px 50px;
-  position: relative; }
+  position: relative;
+  padding: 50px;
+  color: white; }
+  .banner h1, .banner .banner-meta-text, .banner .banner-subheading {
+    animation: slide-up 250ms 1s ease-out forwards;
+    color: white;
+    opacity: 0;
+    overflow: hidden;
+    transform: translatey(10px); }
   .banner h1 {
     color: white;
     font-size: 7vw;
-    letter-spacing: 2.5px;
+    margin-top: 5px;
     margin-bottom: 0;
-    margin-top: 5px; }
-  .banner .banner-subheading {
-    color: white;
-    font-size: 18px;
-    line-height: 1.3;
-    max-width: 40vw; }
-  .banner .banner-meta-text {
-    color: white;
-    font-size: 14px;
-    margin-bottom: 0;
-    text-transform: uppercase; }
+    letter-spacing: 2.5px; }
 
+.banner:before {
+  animation: show-background 600ms 0.5s cubic-bezier(0, 0.99, 0.97, 0.97) forwards;
+  background-image: url("/assets/images/sketch-screenshot.jpg");
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translate(-100%); }
+
+.banner-subheading {
+  color: white;
+  font-size: 18px;
+  line-height: 1.3;
+  max-width: 40vw; }
+
+.banner-meta-text {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 200px;
+  text-transform: uppercase; }
+
+@keyframes show-background {
+  0% {
+    transform: translate(-100%); }
+  50% {
+    transform: translate(0); }
+  100% {
+    transform: none; } }
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translatey(10px); }
+  to {
+    opacity: 1;
+    transform: translatey(0); } }
 /*
 ======================================
              Footer stuff

@@ -25,7 +25,7 @@
 }
 
 .banner:before {
-  animation: show-background 600ms .5s ease-out forwards;
+  animation: show-background 600ms .5s cubic-bezier(0,.99,.97,.97) forwards;
   background-image: url("/assets/images/sketch-screenshot.jpg");
   background-size: cover;
   content: "";
@@ -40,14 +40,15 @@
 .banner-subheading {
     color: white;
     font-size: 18px;
-    max-width: 40vw;
     line-height: 1.3;
+    max-width: 40vw;
   }
 
 .banner-meta-text {
     color: white;
     font-size: 14px;
     margin-bottom: 0px;
+    margin-top:200px;
     text-transform: uppercase;
   }
 
