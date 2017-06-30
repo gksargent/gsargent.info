@@ -13,7 +13,7 @@
   <div class="banner">
     <p class="banner-meta-text">I'm Greg, a</p>
     <h1>UI &amp; Ix Designer</h1>
-    <p class="banner-subheading">I'm an Apple fanboy, Sketch lovin', anti-Adobe-designer kinda dude working by day at <a href="https://www.alkami.com/" target="_blank">Alkami</a>, and studying design at BYUI at night.</p>
+    <p class="banner-subheading">I'm an Apple fanboy, Sketch lovin', anti-Adobe-designer kinda dude working by day at Alkami, and studying design through BYUI at night.</p>
   </div>
 
   <div class="content_wrapper">

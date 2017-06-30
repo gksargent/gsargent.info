@@ -1,0 +1,130 @@
+#portfolio-left {
+  margin-right: 45px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .about-section {
+    background-image: url("http://www.gsargent.info/assets/icons/icon-profile.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+    padding-left: 40px;
+    text-transform: uppercase;
+  }
+
+  .skills-section {
+    background-image: url("http://www.gsargent.info/assets/icons/icon-skills.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+    padding-left: 40px;
+    text-transform: uppercase;
+  }
+}
+
+.skill-container {
+  margin: 10px 0;
+
+  .skill-title {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skill-outer {
+  display: block;
+  height: 9px;
+  border: 1px solid black;
+  border-radius: 5px;
+  }
+
+  .skill-value-1, .skill-value-2, .skill-value-3, .skill-value-4, .skill-value-5, .skill-value-6, .skill-value-7, .skill-value-8, .skill-value-9, .skill-value-10  {
+    background-color: black;
+    border-radius: 5px;
+    height: 7px;
+    margin: 1px;
+  }
+
+  .skill-value-1 {
+    width: 10%;
+  }
+
+  .skill-value-2 {
+    width: 20%
+  }
+
+  .skill-value-3 {
+    width: 30%
+  }
+
+  .skill-value-4 {
+    width: 40%
+  }
+
+  .skill-value-5 {
+    width: 50%
+  }
+
+  .skill-value-6 {
+    width: 60%;
+  }
+
+  .skill-value-7 {
+    width: 70%
+  }
+
+  .skill-value-8 {
+    width: 80%
+  }
+
+  .skill-value-9 {
+    width: 90%
+  }
+
+  .skill-value-10 {
+    width: 99.325%;
+  }
+}
+
+#portfolio-right {
+
+  .experience-section {
+    background-image: url("http://www.gsargent.info/assets/icons/icon-work.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+    padding-left: 40px;
+    text-transform: uppercase;
+  }
+
+  .experience-title {
+    font-weight: bold;
+    margin: 0 0 5px 0;
+  }
+
+  .experience-meta {
+    color: $secondary-color;
+    font-size: 13px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .school-section {
+    background-image: url("http://www.gsargent.info/assets/icons/icon-school.svg");
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+    padding-left: 40px;
+    text-transform: uppercase;
+  }
+}
