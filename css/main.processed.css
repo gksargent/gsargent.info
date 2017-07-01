@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .color_swatches {
   background-color: white;
   border-radius: 5px;
@@ -87,7 +86,7 @@ tt {
 body {
   background-color: white;
   color: #333333;
-  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-weight: 400;
   height: 100vh;
@@ -191,6 +190,9 @@ figure {
   margin-left: auto;
   margin-right: auto; }
 
+.no-bullets {
+  list-style-type: none; }
+
 .primary-button {
   background-color: #ff421a;
   border: none;
@@ -199,7 +201,7 @@ figure {
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 17px;
   padding: 15px 25px;
   text-transform: uppercase;
@@ -221,17 +223,16 @@ Grid visualization stuff
 ======================================
 */
 .container {
-  margin: 10px auto;
+  margin: 0 auto;
   max-width: 1100px;
-  padding: 10px;
   width: 100%; }
 
 .columns {
   display: flex; }
   .columns .column {
-    margin: 10px 0 10px 0;
+    margin: 0;
     min-height: 25px;
-    padding: 10px; }
+    padding: 0 25px 0 25px; }
   .columns .full {
     width: 100%; }
   .columns .one-half {
@@ -531,7 +532,6 @@ footer {
 
 .cta-container {
   background-color: black;
-  color: black;
   font-size: 25px;
   height: 300px; }
   .cta-container .column {
@@ -563,8 +563,7 @@ footer {
   transition: all 250ms ease; }
 
 .cta-left:hover, .cta-right:hover {
-  opacity: .8;
-  transform: scale(10%); }
+  opacity: .8; }
 
 #portfolio-left {
   margin-right: 45px; }
@@ -652,5 +651,25 @@ footer {
   margin-top: 50px;
   padding-left: 40px;
   text-transform: uppercase; }
+
+form {
+  display: flex;
+  flex-direction: column; }
+  form input, form textarea {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    color: #333333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+    padding: 25px 20px;
+    transition: all 250ms ease; }
+  form input:hover, form textarea:hover {
+    background-color: #e3e3e3; }
+  form button {
+    margin-top: 25px;
+    max-width: 200px; }
 
 /*# sourceMappingURL=main.processed.css.map */
