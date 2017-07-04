@@ -1,0 +1,94 @@
+//common elements
+
+.landing-hero {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+
+  h1, h4 {
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0.70);
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    max-width: 200px;
+  }
+
+}
+
+.landing-content {
+  padding: 15%;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+//==============================
+// section styles
+
+//landing start
+#landing-start {
+  background-attachment: fixed;
+  background-image: url("../assets/images/exterior-4.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//landing gallery
+#landing-gallery {
+  background-attachment: fixed;
+  background-image: url("../assets/images/exterior-8.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#landing-gallery-3up {
+  display: flex;
+  height: 180px;
+  overflow: hidden;
+  margin-bottom: 50px;
+
+  :nth-child(2) {
+    margin: 0 15px;
+    align-self: center;
+  }
+
+  img {
+    align-self: center;
+    width: 33.3333%;
+  }
+}
+
+#landing-gallery-content-2 {
+  background-color: whitesmoke;
+}
+
+//landing breakfast
+#landing-breakfast {
+  background-attachment: fixed;
+  background-image: url("../assets/images/breakfast.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+//landing call to anchor-text-decoration
+#landing-cta {
+  background-attachment: fixed;
+  background-image: url("../assets/images/cta.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
