@@ -1,0 +1,116 @@
+body {
+  font-family: 'Myriad Pro', 'Arial', serif;
+  background-color: #FAFFB6;
+  min-width: 870px;
+  padding: 0;
+  margin: 0; }
+
+header {
+  background-color: #524520;
+  padding-top: 70px; }
+
+#brand_image_container {
+  border-top: 5px solid #897435;
+  height: 85px;
+  background: url("../images/brand-image-background.png");
+  background-color: #F6CA3B;
+  background-repeat: repeat-x; }
+  #brand_image_container img {
+    display: block;
+    margin: -48px auto 5px auto; }
+  #brand_image_container h1 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    color: #897435;
+    margin: 0; }
+
+nav {
+  height: 39px;
+  background-color: #897435;
+  border-top: 2px solid #524520;
+  border-bottom: 2px solid #524520;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.37); }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    padding: 0; }
+    nav ul li {
+      display: inline-block;
+      padding: 0 15px; }
+    nav ul a, nav ul a:visited {
+      text-decoration: none;
+      color: #FAFFB6; }
+    nav ul a:hover {
+      color: #F6CA3B; }
+    nav ul a:active {
+      color: #FFFFFF; }
+
+main {
+  width: 870px;
+  margin: 70px auto 70px auto; }
+
+.col1-4, .col2-4, .col3-4, .col4-4 {
+  width: 199px;
+  height: 334px;
+  margin: 0 2.5px 0 2.5px;
+  padding: 5px;
+  display: inline-block;
+  background-color: #897435;
+  border-radius: 5px;
+  border: none;
+  text-align: center; }
+  .col1-4 .column-image-container, .col2-4 .column-image-container, .col3-4 .column-image-container, .col4-4 .column-image-container {
+    width: 100%;
+    height: 293px;
+    overflow: hidden; }
+  .col1-4 h2, .col2-4 h2, .col3-4 h2, .col4-4 h2 {
+    color: #FAFFB6;
+    font-size: 20px;
+    margin: 10px 0 0 0; }
+
+.col1-4 .column-image-container {
+  background-image: url("../images/beekeeper.jpg"); }
+
+.col2-4 .column-image-container {
+  background-image: url("../images/team-work.jpg"); }
+
+.col3-4 .column-image-container {
+  background-image: url("../images/flower.jpg"); }
+
+.col4-4 .column-image-container {
+  background-image: url("../images/swarm.jpg"); }
+
+.col1-4 .column-image-container, .col2-4 .column-image-container, .col3-4 .column-image-container, .col4-4 .column-image-container {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+blockquote {
+  max-width: 550px;
+  font-size: 30px;
+  font-family: 'Arial Bold Italics', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 40px auto 130px auto;
+  color: #524520; }
+
+.quote-mark {
+  font-family: 'Myriad Pro', sans-serif; }
+
+footer {
+  background-color: #524520;
+  border-top: 6px solid #897435;
+  color: #F6CA3B;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 37px 0;
+  text-align: center; }
+  footer p {
+    margin: 0; }
+
+/*# sourceMappingURL=main.processed.css.map */

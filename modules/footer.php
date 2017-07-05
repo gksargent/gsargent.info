@@ -5,6 +5,7 @@
       <ul>
         <li><a href="/styleguide">Style Guide</a></li>
         <li><a href="http://cit301b-foundation.gsargent.info/" target="_blank">CIT301b Foundation Site</a></li>
+        <li><a href="http://gsargent.info/practice/" target="_blank">COMM310 Practice Site</a></li>
       </ul>
 
     </div>

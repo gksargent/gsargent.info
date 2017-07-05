@@ -1,0 +1,179 @@
+//color variables
+$light-brown: #897435;
+$dark-brown: #524520;
+$golden-cream: #FAFFB6;
+$golden-brown: #F6CA3B;
+
+//converted color variables
+$header-background-color: $dark-brown;
+$header-honeycomb-background-color: $golden-brown;
+$header-honeycomb-border-color: $light-brown;
+$header-heading-text-color: $light-brown;
+$main-navigation-background-color: $light-brown;
+$main-navigation-border-color: $dark-brown;
+$main-navigation-link: $golden-cream;
+$main-navigation-link-hover: $golden-brown;
+$main-navigation-link-active: #FFFFFF;
+$body-background-color: $golden-cream;
+$carousel-container-background-color: $light-brown;
+$carousel-heading-text-color: $golden-cream;
+$blockquote-text-color: $dark-brown;
+$footer-text-color: $golden-brown;
+$footer-background-color: $dark-brown;
+$footer-border-color: $light-brown;
+
+//======================================
+
+body {
+  font-family: 'Myriad Pro', 'Arial', serif;
+  background-color: $body-background-color;
+  min-width: 870px;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: $header-background-color;
+  padding-top: 70px;
+}
+
+#brand_image_container {
+  border-top: 5px solid $header-honeycomb-border-color;
+  height: 85px;
+  background: url("../images/brand-image-background.png");//remember to add this image into the image folder and update link
+  background-color: $header-honeycomb-background-color;
+  background-repeat: repeat-x;
+
+  img {
+    display: block;
+    margin: -48px auto 5px auto;
+  }
+
+  h1 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    color: $header-heading-text-color;
+    margin: 0;
+  }
+}
+
+nav {
+  height: 39px;
+  background-color: $main-navigation-background-color;
+  border-top: 2px solid $main-navigation-border-color;
+  border-bottom: 2px solid $main-navigation-border-color;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.37);
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      padding: 0 15px;
+    }
+
+    a, a:visited {
+      text-decoration: none;
+      color: $main-navigation-link;
+    }
+
+    a:hover {
+      color: $main-navigation-link-hover;
+    }
+
+    a:active {
+      color: $main-navigation-link-active;
+    }
+  }
+}
+
+main {
+  width: 870px;
+  margin: 70px auto 70px auto;
+}
+
+.col1-4, .col2-4, .col3-4, .col4-4 {
+  width: 199px;
+  height: 334px;
+  margin: 0 2.5px 0 2.5px;
+  padding: 5px;
+  display: inline-block;
+  background-color: $carousel-container-background-color;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+
+  .column-image-container {
+    width: 100%;
+    height: 293px;
+    overflow: hidden;
+  }
+
+  h2 {
+    color: $carousel-heading-text-color;
+    font-size: 20px;
+    margin: 10px 0 0 0
+  }
+
+}
+
+.col1-4 .column-image-container {
+  background-image: url("../images/beekeeper.jpg");
+}
+
+.col2-4 .column-image-container {
+  background-image: url("../images/team-work.jpg");
+}
+
+.col3-4 .column-image-container {
+  background-image: url("../images/flower.jpg");
+}
+
+.col4-4 .column-image-container {
+  background-image: url("../images/swarm.jpg");
+}
+
+.col1-4 .column-image-container, .col2-4 .column-image-container, .col3-4 .column-image-container, .col4-4 .column-image-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+blockquote {
+  max-width: 550px;
+  font-size: 30px;
+  font-family: 'Arial Bold Italics', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin: 40px auto 130px auto;
+  color: $blockquote-text-color;
+
+}
+
+.quote-mark {
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+
+
+footer {
+  background-color: $footer-background-color;
+  border-top: 6px solid $footer-border-color;
+  color: $footer-text-color;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 37px 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}

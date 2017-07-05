@@ -1,0 +1,51 @@
+.showme {
+  background-color: yellow;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#production_heading {
+  color: purple;
+}
+
+#harvesting_heading {
+  color: red;
+}
+
+#bottling_heading {
+  color: brown;
+}
+
+header {
+  border: dashed 1px green;
+}
+
+p {
+	color: blue;
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+#production_section p {
+	color: green;
+}
+
+li a {
+	color: red;
+}
+
+#production_heading+p,#harvesting_heading+p,#bottling_heading+p {
+	padding-left: 20px;
+}
+
+li:nth-child(2) {
+	padding: 10px;
+}
+
+#brand_image {
+	padding: 25px;
+}

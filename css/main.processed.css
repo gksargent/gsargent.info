@@ -521,12 +521,12 @@ footer {
     color: #ff5733; }
 
 .footer-left-column {
-  width: 50%; }
+  width: 70%; }
 
 .footer-right-column {
   display: flex;
   justify-content: flex-end;
-  width: 50%; }
+  width: 30%; }
   .footer-right-column ul {
     display: flex;
     list-style-type: none; }

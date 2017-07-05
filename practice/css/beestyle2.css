@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: .8em;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+header img {
+  padding: 25px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Arial Black, Gadget, sans-serif;
+}
+
+header h1{
+  text-transform: capitalize;
+  font-size: 1.5em;
+  color: #87752D;
+  letter-spacing: .25em;
+}
+
+nav ul {
+	background-color: #F2CC0F;
+	width: 20px;
+	height: 200px;
+	padding-top: 45px;
+  border: 2px solid #928A36;
+  list-style-type: none;
+}
+
+nav li{
+	background-color: RGBA(144, 127, 35, 1.00);
+	width: 220px;
+	padding: 10px 0 10px 5px;
+	margin-bottom: 7px;
+	margin-left: -8px;
+  box-shadow: 2px 2px black;
+
+}
+
+nav a, nav a:visited {
+  color: #F3F9A7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #F9B600;
+}
+
+nav a:active {
+  color: #FDFBFF;
+}
+
+h2{
+  font-size: 14px;
+  font-style: italic;
+}
+
+h3{
+  font-size: 20px;
+  font-style: normal;
+}
+
+main {
+  border: 2px solid #928A36;
+  background-color: #F2CC0F;
+  padding: 30px;
+}
+
+#bees, #blossoms {
+  background-color: #F8FEC9;
+  border: 1px solid #A8994E;
+  padding: 30px;
+  margin: 40px 0;
+}
+
+#bees h3, #blossoms h3 {
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #B8B378;
+  padding: 10px;
+  border-radius: 25px 25px 0 25px;
+  margin: -15px 0 -5px 0;
+  color: #A8994E;
+}
+
+#blossoms {
+  height: 500px;
+  overflow: scroll;
+}
+
+footer{
+  text-align: center;
+  background-color: #A79948;
+  padding: 15px 0;
+  margin: 0 0 20px 0;
+  border-radius: 0 0 15px 15px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer nav ul {
+  background: none;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+  border: none;
+  justify-content: center;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+footer nav li {
+  background: none;
+  box-shadow: none;
+  padding: 0 10px;
+  margin: 0 0;
+  width: auto;
+}
+
+footer a {
+  text-decoration: underline;
+  color: white;
+  font-size: 13px;
+}
