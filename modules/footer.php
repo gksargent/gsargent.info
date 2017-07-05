@@ -2,7 +2,11 @@
 
     <div class="footer-left-column">
       <p><span class="text-tertiary">&copy;</span> Greg Sargent &nbsp; | &nbsp; Proudly coded from scratch.</p>
-      <a href="/styleguide">Style Guide</a>
+      <ul>
+        <li><a href="/styleguide">Style Guide</a></li>
+        <li><a href="http://cit301b-foundation.gsargent.info/" target="_blank">CIT301b Foundation Site</a></li>
+      </ul>
+
     </div>
 
     <div class="footer-right-column">
@@ -27,7 +31,7 @@
 
     ga('create', 'UA-84319679-2', 'auto');
     ga('send', 'pageview');
-    //end google analytics 
+    //end google analytics
 
 
   </script>

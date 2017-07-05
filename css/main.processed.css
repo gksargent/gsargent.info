@@ -505,6 +505,11 @@ footer {
   display: flex;
   font-size: 14px;
   padding: 50px; }
+  footer ul {
+    display: flex;
+    padding-left: 0; }
+    footer ul li:before {
+      content: ''; }
   footer a, footer a:visited {
     background: none;
     color: black;

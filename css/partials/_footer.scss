@@ -10,6 +10,15 @@ footer {
   font-size: 14px;
   padding: 50px;
 
+  ul {
+    display: flex;
+    padding-left: 0;
+
+    li:before {
+      content: '';
+    }
+  }
+
   a, a:visited {
     background: none;
     color: $main-nav-link;
