@@ -228,7 +228,8 @@ Grid visualization stuff
   width: 100%; }
 
 .columns {
-  display: flex; }
+  display: flex;
+  margin: 50px auto; }
   .columns .column {
     margin: 0;
     min-height: 25px;
@@ -495,6 +496,13 @@ Styleguide Grid visualization stuff
   to {
     opacity: 1;
     transform: translatey(0); } }
+.empty-banner .banner-heading, .empty-banner .banner-subheading, .empty-banner .banner-meta-text {
+  color: #333333; }
+
+.empty-banner:before {
+  background-image: url("");
+  background-color: #f0f0f0; }
+
 /*
 ======================================
              Footer stuff
@@ -676,5 +684,31 @@ form {
   form button {
     margin-top: 25px;
     max-width: 200px; }
+
+.article-thumbnail-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+  transition: all 250ms ease-out; }
+  .article-thumbnail-container .article-thumbnail-image-container {
+    overflow: hidden;
+    height: 300px; }
+    .article-thumbnail-container .article-thumbnail-image-container img {
+      transition: transform 300ms ease-out;
+      width: 100%; }
+  .article-thumbnail-container h2 {
+    margin: 15px 20px; }
+  .article-thumbnail-container p {
+    margin: 0 10px 20px 20px; }
+  .article-thumbnail-container .article-thumbnail-meta {
+    color: #707070;
+    font-size: 15px; }
+
+.article-thumbnail-container:hover img {
+  transform: scale(1.05); }
+.article-thumbnail-container:hover p {
+  color: black; }
 
 /*# sourceMappingURL=main.processed.css.map */
