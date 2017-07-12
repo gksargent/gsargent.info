@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <link rel="stylesheet" href="/css/main.processed.css">
   <title>Style Guide | Greg Sargent, UI/Ix Designer</title>
   <?php // This php pulls in head.php to create the meta and links
   include $_SERVER['DOCUMENT_ROOT'].'/modules/head.php'; ?>

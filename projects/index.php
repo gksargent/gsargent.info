@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="/css/main.processed.css">
   <title>Projects | Greg Sargent, UI/Ix Designer</title>
   <meta name="description" content="Greg is a UX/UI Designer in the north Dallas area. Specializing in minimal modern design, Greg is currently working in the FinTech industry designing personal financial management tools at Alkami.">
   <?php // This php pulls in head.php to create the meta and links
@@ -23,7 +22,7 @@
     <section><!-- article thumbnails row 1 -->
     <div class="columns">
       <div class="one-third column">
-        <a class="article-thumbnail-container" href="#">
+        <a class="article-thumbnail-container" href="sample-project.php">
           <div class="article-thumbnail-image-container">
             <img src="http://via.placeholder.com/500x300">
           </div><!-- end article-thumbnail-image-container -->
@@ -34,7 +33,7 @@
       </div> <!-- end third column -->
 
       <div class="one-third column">
-        <a class="article-thumbnail-container" href="#">
+        <a class="article-thumbnail-container" href="sample-project.php">
           <div class="article-thumbnail-image-container">
             <img src="http://via.placeholder.com/500x300">
           </div><!-- end article-thumbnail-image-container -->
@@ -45,7 +44,7 @@
       </div> <!-- end third column -->
 
       <div class="one-third column">
-        <a class="article-thumbnail-container" href="#">
+        <a class="article-thumbnail-container" href="sample-project.php">
           <div class="article-thumbnail-image-container">
             <img src="http://via.placeholder.com/500x300">
           </div><!-- end article-thumbnail-image-container -->
@@ -60,7 +59,7 @@
     <section><!-- article thumbnails row 1 -->
     <div class="columns">
       <div class="one-third column">
-        <a class="article-thumbnail-container" href="#">
+        <a class="article-thumbnail-container" href="sample-project.php">
           <div class="article-thumbnail-image-container">
             <img src="http://via.placeholder.com/500x300">
           </div><!-- end article-thumbnail-image-container -->
@@ -71,7 +70,7 @@
       </div> <!-- end third column -->
 
       <div class="one-third column">
-        <a class="article-thumbnail-container" href="#">
+        <a class="article-thumbnail-container" href="sample-project.php">
           <div class="article-thumbnail-image-container">
             <img src="http://via.placeholder.com/500x300">
           </div><!-- end article-thumbnail-image-container -->
@@ -82,7 +81,7 @@
       </div> <!-- end third column -->
 
       <div class="one-third column">
-        <a class="article-thumbnail-container" href="#">
+        <a class="article-thumbnail-container" href="sample-project.php">
           <div class="article-thumbnail-image-container">
             <img src="http://via.placeholder.com/500x300">
           </div><!-- end article-thumbnail-image-container -->

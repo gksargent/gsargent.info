@@ -1,0 +1,27 @@
+/*
+======================================
+Figures styles
+======================================
+*/
+
+figure {
+  background-color: $filled-box-color;
+  max-width: 600px;
+  padding: 20px 20px 0 20px;
+
+  img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  figcaption {
+    color: $secondary-color;
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  i {
+    color: #c5c5c5;
+    margin-right: 15px;
+  }
+}

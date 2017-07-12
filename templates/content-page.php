@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>How to measure the usability of an app</title>
-  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.">
+  <link rel="stylesheet" href="/css/main.processed.css">
+  <title>About | Greg Sargent, UI/Ix Designer</title>
+  <meta name="description" content="Greg is a UX/UI Designer in the north Dallas area. Specializing in minimal modern design, Greg is currently working in the FinTech industry designing personal financial management tools at Alkami.">
   <?php // This php pulls in head.php to create the meta and links
   include $_SERVER['DOCUMENT_ROOT'].'/modules/head.php'; ?>
 </head>
@@ -10,7 +11,7 @@
   <?php // This php pulls in header.php to create the header content
   include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
-  <div class="banner">
+    <div class="banner">
   <p class="banner-meta-text">Meta text</p>
   <h1 class="banner-heading">Page or article title</h1>
   <p class="banner-subheading">Short blurb or description here, and a little more text to get the line to wrap.</p>

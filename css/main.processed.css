@@ -1,3 +1,8 @@
+/*
+======================================
+Colors styles
+======================================
+*/
 .color_swatches {
   background-color: white;
   border-radius: 5px;
@@ -38,6 +43,11 @@
 .text-tertiary {
   color: #ff5733; }
 
+/*
+======================================
+Typography styles
+======================================
+*/
 h1.styleguide-heading-example, h2.styleguide-heading-example, h3.styleguide-heading-example, h4.styleguide-heading-example, h5.styleguide-heading-example, h6.styleguide-heading-example {
   margin: 0; }
 
@@ -83,6 +93,11 @@ tt {
   font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
   padding: 3px 5px; }
 
+/*
+======================================
+Base styles
+======================================
+*/
 body {
   background-color: white;
   color: #333333;
@@ -167,21 +182,6 @@ ol li:before {
   content: counter(item) ".";
   counter-increment: item; }
 
-figure {
-  background-color: #f0f0f0;
-  max-width: 600px;
-  padding: 20px 20px 0 20px; }
-  figure img {
-    margin: 0 auto;
-    max-width: 100%; }
-  figure figcaption {
-    color: #707070;
-    font-size: 14px;
-    padding: 10px 0; }
-  figure i {
-    color: #c5c5c5;
-    margin-right: 15px; }
-
 .rounded-image {
   border-radius: 100%; }
 
@@ -193,6 +193,11 @@ figure {
 .no-bullets {
   list-style-type: none; }
 
+/*
+======================================
+Button styles
+======================================
+*/
 .primary-button {
   background-color: #ff421a;
   border: none;
@@ -216,6 +221,26 @@ figure {
   background-color: #e62900;
   box-shadow: 0 4px 10px -5px black;
   transform: scale(1); }
+
+/*
+======================================
+Figures styles
+======================================
+*/
+figure {
+  background-color: #f0f0f0;
+  max-width: 600px;
+  padding: 20px 20px 0 20px; }
+  figure img {
+    margin: 0 auto;
+    max-width: 100%; }
+  figure figcaption {
+    color: #707070;
+    font-size: 14px;
+    padding: 10px 0; }
+  figure i {
+    color: #c5c5c5;
+    margin-right: 15px; }
 
 /*
 ======================================
@@ -294,7 +319,7 @@ Styleguide Grid visualization stuff
 
 /*
 ======================================
-            Main navigation
+Main navigation styles
 ======================================
 */
 .main_nav {
@@ -436,6 +461,11 @@ Styleguide Grid visualization stuff
   background-color: #f0f0f0 !important;
   color: #333333 !important; }
 
+/*
+======================================
+Banner styles
+======================================
+*/
 .banner {
   display: flex;
   flex-direction: column;
@@ -505,7 +535,7 @@ Styleguide Grid visualization stuff
 
 /*
 ======================================
-             Footer stuff
+Footer styles
 ======================================
 */
 footer {
@@ -543,6 +573,11 @@ footer {
     .footer-right-column ul li:before {
       display: none; }
 
+/*
+======================================
+CTA styles
+======================================
+*/
 .cta-container {
   background-color: black;
   font-size: 25px;
@@ -578,6 +613,11 @@ footer {
 .cta-left:hover, .cta-right:hover {
   opacity: .8; }
 
+/*
+======================================
+About page styles
+======================================
+*/
 #portfolio-left {
   margin-right: 45px; }
   #portfolio-left h1 {
@@ -665,6 +705,11 @@ footer {
   padding-left: 40px;
   text-transform: uppercase; }
 
+/*
+======================================
+Forms styles
+======================================
+*/
 form {
   display: flex;
   flex-direction: column; }
@@ -685,6 +730,11 @@ form {
     margin-top: 25px;
     max-width: 200px; }
 
+/* 
+======================================
+Articles styles
+======================================
+*/
 .article-thumbnail-container {
   padding: 0;
   display: flex;
@@ -710,5 +760,19 @@ form {
   transform: scale(1.05); }
 .article-thumbnail-container:hover p {
   color: black; }
+
+/*
+======================================
+Content pages styles
+======================================
+*/
+#aside-project-summary-block h2, #aside-article-summary-block h2 {
+  font-size: 2rem; }
+#aside-project-summary-block h4, #aside-article-summary-block h4 {
+  margin: 0; }
+#aside-project-summary-block img, #aside-article-summary-block img {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=main.processed.css.map */

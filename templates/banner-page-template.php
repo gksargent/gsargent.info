@@ -22,8 +22,12 @@
 
     <div class="container">
 
-      <h2>More stuff coming soon...</h2>
-      <p>Lorem ipsum</p>
+      <div class="columns">
+        <div class="full column">
+          <h2>Secondary heading</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+        </div> <!-- end full column -->
+      </div><!-- end columns -->
 
     </div><!-- end container -->
 

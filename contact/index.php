@@ -9,7 +9,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="/css/main.processed.css">
   <title>College | Greg Sargent, UI/Ix Designer</title>
   <meta name="description" content="Greg is a UX/UI Designer in the north Dallas area. Specializing in minimal modern design, Greg is currently working in the FinTech industry designing personal financial management tools at Alkami.">
   <?php // This php pulls in head.php to create the meta and links

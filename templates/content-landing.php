@@ -22,8 +22,7 @@
       <section><!-- article thumbnails row 1 -->
       <div class="columns">
         <div class="one-third column">
-          <a class="article-thumbnail-container" href="how-to-measure-usability.php">
-            <div class="article-thumbnail-image-container">
+          <a class="article-thumbnail-container" href="#">
               <img src="images/nik-macmillan-280300-thumbnail.jpg">
             </div><!-- end article-thumbnail-image-container -->
             <h2>How to measure usability of an app</h2>
@@ -33,7 +32,7 @@
         </div> <!-- end third column -->
 
         <div class="one-third column">
-          <a class="article-thumbnail-container" href="how-to-measure-usability.php">
+          <a class="article-thumbnail-container" href="#">
             <div class="article-thumbnail-image-container">
               <img src="images/joshua-ness-109310-thumbnail.jpg">
             </div><!-- end article-thumbnail-image-container -->
@@ -44,7 +43,7 @@
         </div> <!-- end third column -->
 
         <div class="one-third column">
-          <a class="article-thumbnail-container" href="how-to-measure-usability.php">
+          <a class="article-thumbnail-container" href="#">
             <div class="article-thumbnail-image-container">
               <img src="images/nik-macmillan-280300-thumbnail.jpg">
             </div><!-- end article-thumbnail-image-container -->
@@ -59,7 +58,7 @@
       <section><!-- article thumbnails row 1 -->
       <div class="columns">
         <div class="one-third column">
-          <a class="article-thumbnail-container" href="how-to-measure-usability.php">
+          <a class="article-thumbnail-container" href="#">
             <div class="article-thumbnail-image-container">
               <img src="images/nik-macmillan-280300-thumbnail.jpg">
             </div><!-- end article-thumbnail-image-container -->
@@ -70,7 +69,7 @@
         </div> <!-- end third column -->
 
         <div class="one-third column">
-          <a class="article-thumbnail-container" href="how-to-measure-usability.php">
+          <a class="article-thumbnail-container" href="#">
             <div class="article-thumbnail-image-container">
               <img src="images/joshua-ness-109310-thumbnail.jpg">
             </div><!-- end article-thumbnail-image-container -->
@@ -81,7 +80,7 @@
         </div> <!-- end third column -->
 
         <div class="one-third column">
-          <a class="article-thumbnail-container" href="how-to-measure-usability.php">
+          <a class="article-thumbnail-container" href="#">
             <div class="article-thumbnail-image-container">
               <img src="images/nik-macmillan-280300-thumbnail.jpg">
             </div><!-- end article-thumbnail-image-container -->

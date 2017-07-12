@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>How to measure the usability of an app</title>
+  <title>Sample Project</title>
   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.">
   <?php // This php pulls in head.php to create the meta and links
   include $_SERVER['DOCUMENT_ROOT'].'/modules/head.php'; ?>
@@ -12,7 +12,7 @@
 
   <div class="banner">
   <p class="banner-meta-text">Meta text</p>
-  <h1 class="banner-heading">Page or article title</h1>
+  <h1 class="banner-heading">Sample Project</h1>
   <p class="banner-subheading">Short blurb or description here, and a little more text to get the line to wrap.</p>
   <div class="banner-img">
   </div>
