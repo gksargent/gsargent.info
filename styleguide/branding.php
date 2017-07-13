@@ -38,19 +38,19 @@
     <p>Users of modern applications and websites expect a tasteful and minimal experience, which is why I try to limit UI elements to just a few shades of gray with a splash of color to call attention. I use four base colors for the typography and buttons, and then scss color functions to generate drop shadows, hover states, etc.</p>
     <div class="color-data">
       <span class="color_swatch_primary-color"></span>
-      <p><span class="meta-text">hex</span>#333333<span class="meta-text">rgb</span>51, 51, 51</p>
+      <p><span class="meta-text">hex</span>#333333<span class="meta-text">rgb</span>51, 51, 51<span class="meta-text">DarkGray</span></p>
     </div><!-- end color-data -->
     <div class="color-data">
       <span class="color_swatch_secondary-color"></span>
-      <p><span class="meta-text">hex</span>#707070<span class="meta-text">rgb</span>112, 112, 112</p>
+      <p><span class="meta-text">hex</span>#707070<span class="meta-text">rgb</span>112, 112, 112<span class="meta-text">LightGray</span></p>
     </div><!-- end color-data -->
     <div class="color-data">
       <span class="color_swatch_filled-box-color"></span>
-      <p><span class="meta-text">hex</span>#f0f0f0<span class="meta-text">rgb</span>240, 240, 240</p>
+      <p><span class="meta-text">hex</span>#f0f0f0<span class="meta-text">rgb</span>240, 240, 240<span class="meta-text">WhiteSmoke</span></p>
     </div><!-- end color-data -->
     <div class="color-data">
       <span class="color_swatch_tertiary-color"></span>
-      <p><span class="meta-text">hex</span>#333333<span class="meta-text">rgb</span>255, 87, 51</p>
+      <p><span class="meta-text">hex</span>#333333<span class="meta-text">rgb</span>255, 87, 51<span class="meta-text">Tomato</span></p>
     </div><!-- end color-data -->
   </div><!--end container -->
   </main>
