@@ -40,6 +40,14 @@
         <li><a href="https://gist.github.com/murtaugh/cac94695bac33dbdba08" target="_blank">ALA Image Snippets</a> - I've been trying to figure out how to serve both standard resolution images and ultra high resolution images, and it looks like this guy has the solution.</a></li>
       </ul>
 
+      <h3>Links to image assets used from Unsplash</h3>
+      <ul>
+        <li><a href="https://unsplash.com/@theexplorerdad?photo=WUfPR90lQs8" target="_blank">Joshua Ness 109310</a></li>
+        <li><a href="https://unsplash.com/@nikarthur?photo=YXemfQiPR_E" target="_blank">Nik MacMillan 280300</a></li>
+      </ul>
+
+      <p>All other image assets used on this site are either screenshots of assets I've created or my own photographs.</p>
+
     </div><!-- end container -->
 
   </main>
