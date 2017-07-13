@@ -22,7 +22,7 @@
                        COLUMN 1/3
                ======================== -->
           <div id="portfolio-left" class="one-third column">
-            <img class="rounded-image centered" src="http://www.gsargent.info/assets/images/_greg-profile.png" width="200" alt="Greg's profile photo">
+            <img class="rounded-image centered" src="http://www.gsargent.info/assets/images/_greg-profile.png" alt="Greg's profile photo">
             <h1 class="centered">Greg Sargent</h1>
             <h3 class="about-section">About Me</h3>
             <p>I'm a husband, father of 4 and generally a goofy kinda guy that loves all things digital.</p>
@@ -187,7 +187,7 @@
             <p class="experience-meta">Freelance | May 2008 - March 2016</p>
             <p>Starting off coding basic html experiences to offering CMS installs on WordPress and Squarespace, eventually I ran all my projects through Webflow. Projects included work for notable brands like PetSmart, HP Enterprise, Chick-fil-A, Ellie Lines, Rexel, RAFT Architects and many regional &amp; local businesses.</p>
             <ul>
-              <li>Full stack deisgner on 30+ significant projects</li>
+              <li>Full stack designer on 30+ significant projects</li>
               <li>100's hours consulting</li>
               <li>100's collaborative projects</li>
             </ul>
