@@ -406,7 +406,7 @@ Main navigation styles
 */
 .secondary_nav {
   height: 100vh;
-  margin: 0 50px 0 0;
+  margin: 100px 50px 0 0;
   max-width: 240px;
   width: 25%; }
   .secondary_nav ul {
@@ -571,6 +571,40 @@ BANNER IMAGES FOR ARTICLES & PROJECTS
 .psa-time-banner:before {
   animation: show-background 600ms .5s ease-out forwards;
   background-image: url("/assets/projects/images/psa-time/psa-time-hero.jpg");
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translate(-100%); }
+
+.law-of-three-banner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 102px;
+  min-height: 300px;
+  justify-content: flex-end;
+  position: relative;
+  padding: 50px;
+  color: white; }
+  .law-of-three-banner h1, .law-of-three-banner .banner-meta-text, .law-of-three-banner .banner-subheading {
+    animation: slide-up 250ms 1s ease-out forwards;
+    color: white;
+    opacity: 0;
+    overflow: hidden;
+    transform: translatey(10px); }
+  .law-of-three-banner h1 {
+    color: white;
+    font-size: 7vw;
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: 2.5px; }
+
+.law-of-three-banner:before {
+  animation: show-background 600ms .5s ease-out forwards;
+  background-image: url("/assets/articles/law-of-three/law-of-three-hero.jpg");
   background-size: cover;
   content: "";
   position: absolute;
@@ -821,11 +855,11 @@ Content pages styles
   width: 100%;
   padding: 0;
   margin: 0; }
+#aside-project-summary-block p, #aside-article-summary-block p {
+  font-size: 14px;
+  font-weight: 400; }
 
 article img {
-  width: 100%; }
-
-aside img {
   width: 100%; }
 
 /*# sourceMappingURL=main.processed.css.map */
