@@ -3,7 +3,7 @@
   <div class="one-third column">
     <a class="article-thumbnail-container" href="/articles/setting-expectations-law-of-three.php">
       <div class="article-thumbnail-image-container">
-        <img src="/assets/articles/law-of-three/law-of-three-thumbnail.jpg">
+        <img src="/assets/articles/law-of-three/law-of-three-thumbnail.jpg" alt="article thumbnail image of a computer">
       </div><!-- end article-thumbnail-image-container -->
       <h2>Setting Expectations with Clients - The Law of Three</h2>
       <p>If you are not careful, you can quickly eat up all your earnings just answering client phone calls and messages. Here's how to manage that.</p>

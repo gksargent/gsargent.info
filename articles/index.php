@@ -13,7 +13,7 @@
     <div class="banner empty-banner">
       <p class="banner-meta-text"> </p>
       <h1 class="banner-heading">Articles</h1>
-      <p class="banner-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+      <p class="banner-subheading">This is a space for me to share thoughts on being a designer and all the front-end dev stuff I've been learning at school.</p>
       <div class="banner-img">
       </div>
     </div>
