@@ -93,6 +93,13 @@ tt {
   font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
   padding: 3px 5px; }
 
+blockquote {
+  color: #ff5733;
+  font-size: 2.25vw;
+  font-style: oblique;
+  border-left: 10px solid #f0f0f0;
+  padding-left: 15px; }
+
 /*
 ======================================
 Base styles
@@ -112,12 +119,13 @@ body {
 
 .content_wrapper {
   display: flex;
-  margin: 150px auto 75px auto;
+  margin: 75px auto 0 auto;
   position: inherit;
   width: 90vw; }
 
 main {
-  width: 100%; }
+  margin-bottom: 100px;
+  margin-top: 100px; }
   main a, main a:visited {
     background-color: whitesmoke;
     color: #333333;
@@ -248,13 +256,13 @@ Grid visualization stuff
 ======================================
 */
 .container {
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   max-width: 1100px;
   width: 100%; }
 
 .columns {
   display: flex;
-  margin: 50px auto; }
+  margin: 0 auto 100px auto; }
   .columns .column {
     margin: 0;
     min-height: 25px;
@@ -534,6 +542,45 @@ Banner styles
   background-color: #f0f0f0; }
 
 /*
+========================================
+BANNER IMAGES FOR ARTICLES & PROJECTS
+========================================
+*/
+.psa-time-banner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 102px;
+  min-height: 300px;
+  justify-content: flex-end;
+  position: relative;
+  padding: 50px;
+  color: white; }
+  .psa-time-banner h1, .psa-time-banner .banner-meta-text, .psa-time-banner .banner-subheading {
+    animation: slide-up 250ms 1s ease-out forwards;
+    color: white;
+    opacity: 0;
+    overflow: hidden;
+    transform: translatey(10px); }
+  .psa-time-banner h1 {
+    color: white;
+    font-size: 7vw;
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: 2.5px; }
+
+.psa-time-banner:before {
+  animation: show-background 600ms .5s ease-out forwards;
+  background-image: url("/assets/projects/images/psa-time/psa-time-hero.jpg");
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translate(-100%); }
+
+/*
 ======================================
 Footer styles
 ======================================
@@ -774,5 +821,11 @@ Content pages styles
   width: 100%;
   padding: 0;
   margin: 0; }
+
+article img {
+  width: 100%; }
+
+aside img {
+  width: 100%; }
 
 /*# sourceMappingURL=main.processed.css.map */

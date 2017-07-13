@@ -80,3 +80,11 @@ tt {
   font-family: $fixed-font-family;
   padding: 3px 5px;
 }
+
+blockquote {
+  color: $tertiary-color;
+  font-size: 2.25vw;
+  font-style: oblique;
+  border-left: 10px solid $filled-box-color;
+  padding-left: 15px;
+}

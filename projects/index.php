@@ -19,79 +19,10 @@
   </div>
 
   <main>
-    <section><!-- article thumbnails row 1 -->
-    <div class="columns">
-      <div class="one-third column">
-        <a class="article-thumbnail-container" href="sample-project.php">
-          <div class="article-thumbnail-image-container">
-            <img src="http://via.placeholder.com/500x300">
-          </div><!-- end article-thumbnail-image-container -->
-          <h2>How to measure usability of an app</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-          <p class="article-thumbnail-meta">Jul 5, 2017</p>
-        </a><!-- end article-thumbnail-container -->
-      </div> <!-- end third column -->
-
-      <div class="one-third column">
-        <a class="article-thumbnail-container" href="sample-project.php">
-          <div class="article-thumbnail-image-container">
-            <img src="http://via.placeholder.com/500x300">
-          </div><!-- end article-thumbnail-image-container -->
-          <h2>Scaling design teams</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-          <p class="article-thumbnail-meta">Jul 3, 2017</p>
-        </a><!-- end article-thumbnail-container -->
-      </div> <!-- end third column -->
-
-      <div class="one-third column">
-        <a class="article-thumbnail-container" href="sample-project.php">
-          <div class="article-thumbnail-image-container">
-            <img src="http://via.placeholder.com/500x300">
-          </div><!-- end article-thumbnail-image-container -->
-          <h2>The right way to design icons</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-          <p class="article-thumbnail-meta">Jun 26, 2017</p>
-        </a><!-- end article-thumbnail-container -->
-      </div> <!-- end third column -->
-    </div><!-- end columns -->
-    </section><!-- end articles row 1 -->
-
-    <section><!-- article thumbnails row 1 -->
-    <div class="columns">
-      <div class="one-third column">
-        <a class="article-thumbnail-container" href="sample-project.php">
-          <div class="article-thumbnail-image-container">
-            <img src="http://via.placeholder.com/500x300">
-          </div><!-- end article-thumbnail-image-container -->
-          <h2>How to measure usability of an app</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-          <p class="article-thumbnail-meta">Jul 5, 2017</p>
-        </a><!-- end article-thumbnail-container -->
-      </div> <!-- end third column -->
-
-      <div class="one-third column">
-        <a class="article-thumbnail-container" href="sample-project.php">
-          <div class="article-thumbnail-image-container">
-            <img src="http://via.placeholder.com/500x300">
-          </div><!-- end article-thumbnail-image-container -->
-          <h2>Scaling design teams</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-          <p class="article-thumbnail-meta">Jul 3, 2017</p>
-        </a><!-- end article-thumbnail-container -->
-      </div> <!-- end third column -->
-
-      <div class="one-third column">
-        <a class="article-thumbnail-container" href="sample-project.php">
-          <div class="article-thumbnail-image-container">
-            <img src="http://via.placeholder.com/500x300">
-          </div><!-- end article-thumbnail-image-container -->
-          <h2>The right way to design icons</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-          <p class="article-thumbnail-meta">Jun 26, 2017</p>
-        </a><!-- end article-thumbnail-container -->
-      </div> <!-- end third column -->
-    </div><!-- end columns -->
-    </section><!-- end articles row 1 -->
+    <?php // This php pulls in head.php to create the meta and links
+    include $_SERVER['DOCUMENT_ROOT'].'/modules/recent-projects.php'; ?>
+    <?php // This php pulls in head.php to create the meta and links
+    include $_SERVER['DOCUMENT_ROOT'].'/modules/all-projects.php'; ?>
   </main>
 
 <?php // This php pulls in footer.php to create the footer content

@@ -41,17 +41,20 @@
 
 <p>Nam quis sem orci. Phasellus ligula tellus, lobortis nec accumsan eget, mattis at erat. </p>
 
-<div class="author_snippet">
-<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1204905/_greg-profile.png" alt="Greg's Profile Photo">
-<p>Hi <a href="/about">I'm Greg</a>, a user interface and interaction designer in Dallas, TX. By day I design banking software at <a href="https://www.alkami.com/" target="_blank">Alkami</a>, at night, afternoons and weekends I study design &amp; development at <a href="http://www.byui.edu/online/degrees-and-programs/web-design-and-development" target="_blank">BYU-I</a>.
-</div><!-- end author_snippet -->
-
-        </article>
+    </article>
       </div>
 
       <div class="one-fourth column">
-        <?php // This php pulls in recent-aside.php to create the content page sidebar content
-        include $_SERVER['DOCUMENT_ROOT'].'/modules/recent-aside.php'; ?>
+        <aside id="project-details">
+          <img src="http://via.placeholder.com/200x100">
+          <h3>Client</h3>
+          <p>Client Name Here</p>
+          <h3>Project Timeframe</h3>
+          <p>Project timeframe here</p>
+          <h3>Software Used</h3>
+          <p>Software 1, Software 2, Software 3</p>
+          <h3>Project Description</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
         </aside>
       </div>
     </div><!-- end conlumns -->

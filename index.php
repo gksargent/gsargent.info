@@ -11,12 +11,11 @@
     include $_SERVER['DOCUMENT_ROOT'].'/modules/header.php'; ?>
 
   <div class="banner">
-    <p class="banner-meta-text">I'm Greg, a</p>
+    <p class="banner-meta-text"></p>
     <h1>UI &amp; Ix Designer</h1>
     <p class="banner-subheading">I'm an Apple fanboy, Sketch lovin', anti-Adobe-designer kinda dude working by day at Alkami, and studying design through BYUI at night.</p>
-  </div>
+  </div><!-- end banner -->
 
-  <div class="content_wrapper">
   <main>
     <div class="container">
       <h2>More stuff coming soon...</h2>
@@ -24,9 +23,10 @@
       <p>I'll eventually have my portfolio here, and I'll be working on it slowly over time. My main focus is on finishing up my degree and designing banking software at Alkami.</p>
     </div><!-- end container -->
 
-
+    <!-- ============== RECENT ARTICLES MODULE HERE =================== -->
+    <?php // This php pulls in head.php to create the meta and links
+    include $_SERVER['DOCUMENT_ROOT'].'/modules/recent-articles.php'; ?>
   </main>
-</div><!-- end content_wrapper -->
 
 <!-- call to action container - consider moving this into a module -->
 <div class="cta-container">

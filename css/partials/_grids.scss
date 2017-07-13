@@ -5,7 +5,7 @@ Grid visualization stuff
 */
 
 .container {
-  margin: 0 auto;
+  margin: 0 auto 100px auto;
   max-width: 1100px;
   //padding: 10px;
   width: 100%;
@@ -13,7 +13,7 @@ Grid visualization stuff
 
 .columns {
   display: flex;
-  margin: 50px auto;
+  margin: 0 auto 100px auto;
 
   .column {
     margin: 0;
