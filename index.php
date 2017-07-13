@@ -33,13 +33,13 @@
   <div class="columns">
     <div class="cta-left one-half column">
       <p>Work with a purpose</p>
-      <form method="get" action="#">
+      <form method="get" action="/projects">
         <button class="primary-button" type="submit">My Work</button>
       </form>
     </div> <!-- end half column -->
     <div class="cta-right one-half column">
       <p>Study with a purpose</p>
-      <form method="get" action="#">
+      <form method="get" action="/articles">
         <button class="primary-button" type="submit">My Studies</button>
       </form>
     </div> <!-- end half column -->
